@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context/authContext";
 import "./login.scss";
@@ -15,15 +15,20 @@ const Login = () => {
   const handleChange = (e) => {
     setInputs((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
-  const { login } = useContext(AuthContext);
+  const { login, currentUser } = useContext(AuthContext);
+
+  useEffect(()=> {
+    if(currentUser) { 
+      navigate("/", {replace: true});
+    }
+  }, [currentUser])
 
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
       await login(inputs);
-      navigate("/")
     } catch (err) {
-      setErr(err.response.data);
+      setErr(err?.message);
     }
   };
 
@@ -31,11 +36,9 @@ const Login = () => {
     <div className="login">
       <div className="card">
         <div className="left">
-          <h1>Hello World.</h1>
+          <h1>YugabyteDB Social.</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum,
-            alias totam numquam ipsa exercitationem dignissimos, error nam,
-            consequatur.
+            Manual Sharding Sucks.
           </p>
           <span>Don't you have an account?</span>
           <Link to="/register">

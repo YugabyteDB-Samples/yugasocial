@@ -18,6 +18,7 @@ import { useContext } from "react";
 const LeftBar = () => {
 
   const { currentUser } = useContext(AuthContext);
+  const profilepic = currentUser?.profilepic?.length > 0 ? `http://localhost:8800/images/${currentUser.profilepic}` :  "https://static.thenounproject.com/png/3672322-200.png"
 
   return (
     <div className="leftBar">
@@ -25,7 +26,7 @@ const LeftBar = () => {
         <div className="menu">
           <div className="user">
             <img
-              src={"/upload/" +currentUser.profilePic}
+              src={profilepic}
               alt=""
             />
             <span>{currentUser.name}</span>

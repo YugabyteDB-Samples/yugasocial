@@ -41,17 +41,20 @@ const Share = () => {
     e.preventDefault();
     let imgUrl = "";
     if (file) imgUrl = await upload();
-    mutation.mutate({ desc, img: imgUrl });
+    mutation.mutate({ description: desc, img: imgUrl });
     setDesc("");
     setFile(null);
   };
+
+  const profilepic = currentUser?.profilepic?.length > 0 ? `http://localhost:8800/images/${currentUser.profilepic}` :  "https://static.thenounproject.com/png/3672322-200.png"
 
   return (
     <div className="share">
       <div className="container">
         <div className="top">
           <div className="left">
-            <img src={"/upload/" + currentUser.profilePic} alt="" />
+            {/* <img src={"/upload/" + currentUser.profilepic} alt="" /> */}
+            <img src={profilepic} alt="" />
             <input
               type="text"
               placeholder={`What's on your mind ${currentUser.name}?`}

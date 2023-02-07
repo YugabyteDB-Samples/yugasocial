@@ -20,7 +20,7 @@ const Post = ({ post }) => {
   const { currentUser } = useContext(AuthContext);
 
   const { isLoading, error, data } = useQuery(["likes", post.id], () =>
-    makeRequest.get("/likes?postId=" + post.id).then((res) => {
+    makeRequest.get("/likes?postid=" + post.id).then((res) => {
       return res.data;
     })
   );
@@ -29,8 +29,8 @@ const Post = ({ post }) => {
 
   const mutation = useMutation(
     (liked) => {
-      if (liked) return makeRequest.delete("/likes?postId=" + post.id);
-      return makeRequest.post("/likes", { postId: post.id });
+      if (liked) return makeRequest.delete("/likes?postid=" + post.id);
+      return makeRequest.post("/likes", { postid: post.id });
     },
     {
       onSuccess: () => {
@@ -40,8 +40,8 @@ const Post = ({ post }) => {
     }
   );
   const deleteMutation = useMutation(
-    (postId) => {
-      return makeRequest.delete("/posts/" + postId);
+    (postid) => {
+      return makeRequest.delete("/posts/" + postid);
     },
     {
       onSuccess: () => {
@@ -59,30 +59,32 @@ const Post = ({ post }) => {
     deleteMutation.mutate(post.id);
   };
 
+  const profilepic = post?.profilepic?.length > 0 ? `http://localhost:8800/images/${post.profilepic}` :  "https://static.thenounproject.com/png/3672322-200.png"
+  const postpic = post?.img?.length > 0 ? `http://localhost:8800/images/${post.img}` :  "";
   return (
     <div className="post">
       <div className="container">
         <div className="user">
           <div className="userInfo">
-            <img src={"/upload/"+post.profilePic} alt="" />
+            <img src={profilepic} alt="" />
             <div className="details">
               <Link
-                to={`/profile/${post.userId}`}
+                to={`/profile/${post.userid}`}
                 style={{ textDecoration: "none", color: "inherit" }}
               >
                 <span className="name">{post.name}</span>
               </Link>
-              <span className="date">{moment(post.createdAt).fromNow()}</span>
+              <span className="date">{moment(post.createdat).fromNow()}</span>
             </div>
           </div>
           <MoreHorizIcon onClick={() => setMenuOpen(!menuOpen)} />
-          {menuOpen && post.userId === currentUser.id && (
+          {menuOpen && post.userid === currentUser.id && (
             <button onClick={handleDelete}>delete</button>
           )}
         </div>
         <div className="content">
-          <p>{post.desc}</p>
-          <img src={"/upload/" + post.img} alt="" />
+          <p>{post.description}</p>
+          <img src={postpic} alt="" />
         </div>
         <div className="info">
           <div className="item">
@@ -107,7 +109,7 @@ const Post = ({ post }) => {
             Share
           </div>
         </div>
-        {commentOpen && <Comments postId={post.id} />}
+        {commentOpen && <Comments postid={post.id} />}
       </div>
     </div>
   );

@@ -22,10 +22,12 @@ app.use(
   })
 );
 app.use(cookieParser());
+app.use("/images", express.static("images"));
 
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, "../client/public/upload");
+    // cb(null, "../client/public/upload");
+    cb(null, "./images");
   },
   filename: function (req, file, cb) {
     cb(null, Date.now() + file.originalname);
@@ -47,5 +49,5 @@ app.use("/api/likes", likeRoutes);
 app.use("/api/relationships", relationshipRoutes);
 
 app.listen(8800, () => {
-  console.log("API working!");
+  console.log("Server listening on port 8800.");
 });

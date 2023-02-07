@@ -21,34 +21,41 @@ const Profile = () => {
   const [openUpdate, setOpenUpdate] = useState(false);
   const { currentUser } = useContext(AuthContext);
 
-  const userId = parseInt(useLocation().pathname.split("/")[2]);
+  const location = useLocation();
+  const userid = parseInt(location.pathname.split("/")[2]);
+  const queryClient = useQueryClient();
 
-  const { isLoading, error, data } = useQuery(["user"], () =>
-    makeRequest.get("/users/find/" + userId).then((res) => {
+  const { isLoading, error, data: userData } = useQuery(["user", userid], () =>
+    makeRequest.get("/users/find/" + userid).then((res) => {
       return res.data;
     })
   );
 
   const { isLoading: rIsLoading, data: relationshipData } = useQuery(
-    ["relationship"],
-    () =>
-      makeRequest.get("/relationships?followedUserId=" + userId).then((res) => {
-        return res.data;
-      })
+    {
+      queryKey: ["relationship", {id: userid}],
+      queryFn: () => {
+        return makeRequest.get("/relationships?followeduserid=" + userData.id).then((res) => {
+          return res.data;
+        })
+      },
+      enabled: userData?.id != null
+    }
   );
 
-  const queryClient = useQueryClient();
+  
 
   const mutation = useMutation(
     (following) => {
       if (following)
-        return makeRequest.delete("/relationships?userId=" + userId);
-      return makeRequest.post("/relationships", { userId });
+        return makeRequest.delete("/relationships?userid=" + userid);
+      return makeRequest.post("/relationships", { userid });
     },
     {
       onSuccess: () => {
         // Invalidate and refetch
         queryClient.invalidateQueries(["relationship"]);
+        queryClient.invalidateQueries(["relationshipSidebar"]);
       },
     }
   );
@@ -57,6 +64,9 @@ const Profile = () => {
     mutation.mutate(relationshipData.includes(currentUser.id));
   };
 
+  const profilepic = userData?.profilepic?.length > 0 ? `http://localhost:8800/images/${userData.profilepic}` :  "https://static.thenounproject.com/png/3672322-200.png"
+  const coverpic = userData?.coverpic?.length > 0 ? `http://localhost:8800/images/${userData.coverpic}` :  "https://www.fg-a.com/facebook-images/2021-beach-fun-cover.jpg"
+
   return (
     <div className="profile">
       {isLoading ? (
@@ -64,44 +74,44 @@ const Profile = () => {
       ) : (
         <>
           <div className="images">
-            <img src={"/upload/"+data.coverPic} alt="" className="cover" />
-            <img src={"/upload/"+data.profilePic} alt="" className="profilePic" />
+            <img src={coverpic} alt="" className="cover" />
+            <img src={profilepic} alt="" className="profilepic" />
           </div>
           <div className="profileContainer">
             <div className="uInfo">
               <div className="left">
-                <a href="http://facebook.com">
+                <a href="#">
                   <FacebookTwoToneIcon fontSize="large" />
                 </a>
-                <a href="http://facebook.com">
+                <a href="#">
                   <InstagramIcon fontSize="large" />
                 </a>
-                <a href="http://facebook.com">
+                <a href="#">
                   <TwitterIcon fontSize="large" />
                 </a>
-                <a href="http://facebook.com">
+                <a href="#">
                   <LinkedInIcon fontSize="large" />
                 </a>
-                <a href="http://facebook.com">
+                <a href="#">
                   <PinterestIcon fontSize="large" />
                 </a>
               </div>
               <div className="center">
-                <span>{data.name}</span>
+                <span>{userData.name}</span>
                 <div className="info">
                   <div className="item">
                     <PlaceIcon />
-                    <span>{data.city}</span>
+                    <span>{userData.city}</span>
                   </div>
                   <div className="item">
                     <LanguageIcon />
-                    <span>{data.website}</span>
+                    <span>{userData.website}</span>
                   </div>
                 </div>
                 {rIsLoading ? (
                   "loading"
-                ) : userId === currentUser.id ? (
-                  <button onClick={() => setOpenUpdate(true)}>update</button>
+                ) : userid === parseInt(currentUser.id) ? (
+                  <button onClick={() => setOpenUpdate(true)}>Update</button>
                 ) : (
                   <button onClick={handleFollow}>
                     {relationshipData.includes(currentUser.id)
@@ -115,11 +125,11 @@ const Profile = () => {
                 <MoreVertIcon />
               </div>
             </div>
-            <Posts userId={userId} />
+            <Posts userid={userid} />
           </div>
         </>
       )}
-      {openUpdate && <Update setOpenUpdate={setOpenUpdate} user={data} />}
+      {openUpdate && <Update setOpenUpdate={setOpenUpdate} user={userData} />}
     </div>
   );
 };

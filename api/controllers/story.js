@@ -9,10 +9,8 @@ export const getStories = (req, res) => {
   jwt.verify(token, "secretkey", (err, userInfo) => {
     if (err) return res.status(403).json("Token is not valid!");
 
-    console.log(userId);
-
-    const q = `SELECT s.*, name FROM stories AS s JOIN users AS u ON (u.id = s.userId)
-    LEFT JOIN relationships AS r ON (s.userId = r.followedUserId AND r.followerUserId= ?) LIMIT 4`;
+    const q = `SELECT s.*, name FROM stories AS s JOIN users AS u ON (u.id = s.userid)
+    LEFT JOIN relationships AS r ON (s.userid = r.followeduserid AND r.followeruserid= ?) LIMIT 4`;
 
     db.query(q, [userInfo.id], (err, data) => {
       if (err) return res.status(500).json(err);
@@ -28,7 +26,7 @@ export const addStory = (req, res) => {
   jwt.verify(token, "secretkey", (err, userInfo) => {
     if (err) return res.status(403).json("Token is not valid!");
 
-    const q = "INSERT INTO stories(`img`, `createdAt`, `userId`) VALUES (?)";
+    const q = "INSERT INTO stories(`img`, `createdat`, `userid`) VALUES (?)";
     const values = [
       req.body.img,
       moment(Date.now()).format("YYYY-MM-DD HH:mm:ss"),
@@ -49,7 +47,7 @@ export const deleteStory = (req, res) => {
   jwt.verify(token, "secretkey", (err, userInfo) => {
     if (err) return res.status(403).json("Token is not valid!");
 
-    const q = "DELETE FROM stories WHERE `id`=? AND `userId` = ?";
+    const q = "DELETE FROM stories WHERE `id`=? AND `userid` = ?";
 
     db.query(q, [req.params.id, userInfo.id], (err, data) => {
       if (err) return res.status(500).json(err);

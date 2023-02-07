@@ -18,7 +18,7 @@ const Stories = () => {
   return (
     <div className="stories">
       <div className="story">
-        <img src={"/upload/" + currentUser.profilePic} alt="" />
+        <img src={`http://localhost:8800/images/${currentUser.profilepic}`} alt="" />
         <span>{currentUser.name}</span>
         <button>+</button>
       </div>

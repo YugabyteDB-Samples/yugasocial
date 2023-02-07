@@ -1,11 +1,23 @@
 import express from "express";
-import { getLikes, addLike, deleteLike } from "../controllers/like.js";
+import {
+  getLikes,
+  addLike,
+  deleteLike,
+  getLikesYugabyte,
+  addLikeYugabyte,
+  deleteLikeYugabyte,
+} from "../controllers/like.js";
 
-const router = express.Router()
+const router = express.Router();
 
-router.get("/", getLikes)
-router.post("/", addLike)
-router.delete("/", deleteLike)
+if (process.env.DB_TYPE === "mysql") {
+  router.get("/", getLikes);
+  router.post("/", addLike);
+  router.delete("/", deleteLike);
+} else {
+  router.get("/", getLikesYugabyte);
+  router.post("/", addLikeYugabyte);
+  router.delete("/", deleteLikeYugabyte);
+}
 
-
-export default router
+export default router;

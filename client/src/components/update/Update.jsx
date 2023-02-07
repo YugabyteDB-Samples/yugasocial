@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { makeRequest } from "../../axios";
 import "./update.scss";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";
+import { AuthContext } from "../../context/authContext";
 
 const Update = ({ setOpenUpdate, user }) => {
   const [cover, setCover] = useState(null);
@@ -15,8 +16,8 @@ const Update = ({ setOpenUpdate, user }) => {
     website: user.website,
   });
 
+  const {currentUser, setCurrentUser} = useContext(AuthContext);
   const upload = async (file) => {
-    console.log(file)
     try {
       const formData = new FormData();
       formData.append("file", file);
@@ -28,7 +29,7 @@ const Update = ({ setOpenUpdate, user }) => {
   };
 
   const handleChange = (e) => {
-    setTexts((prev) => ({ ...prev, [e.target.name]: [e.target.value] }));
+    setTexts((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
   const queryClient = useQueryClient();
@@ -38,9 +39,13 @@ const Update = ({ setOpenUpdate, user }) => {
       return makeRequest.put("/users", user);
     },
     {
-      onSuccess: () => {
+      onSuccess: (user) => {
         // Invalidate and refetch
         queryClient.invalidateQueries(["user"]);
+        setCurrentUser((prevUser) => {
+          const data = JSON.parse(user?.config?.data);
+          return { ...prevUser, ...data };
+        });
       },
     }
   );
@@ -52,13 +57,17 @@ const Update = ({ setOpenUpdate, user }) => {
     
     let coverUrl;
     let profileUrl;
-    coverUrl = cover ? await upload(cover) : user.coverPic;
-    profileUrl = profile ? await upload(profile) : user.profilePic;
-    
-    mutation.mutate({ ...texts, coverPic: coverUrl, profilePic: profileUrl });
+    coverUrl = cover ? await upload(cover) : user.coverpic;
+    profileUrl = profile ? await upload(profile) : user.profilepic;
+    mutation.mutate({ ...texts, coverpic: coverUrl, profilepic: profileUrl });
     setOpenUpdate(false);
     setCover(null);
     setProfile(null);
+  }
+
+  const profilepic = user?.profilepic?.length > 0 ? `http://localhost:8800/images/${user.profilepic}` :  "https://static.thenounproject.com/png/3672322-200.png"
+  const coverpic = user?.coverpic?.length > 0 ? `http://localhost:8800/images/${user.coverpic}` :  "https://www.fg-a.com/facebook-images/2021-beach-fun-cover.jpg"
+
 
   return (
     <div className="update">
@@ -73,7 +82,7 @@ const Update = ({ setOpenUpdate, user }) => {
                   src={
                     cover
                       ? URL.createObjectURL(cover)
-                      : "/upload/" + user.coverPic
+                      : coverpic
                   }
                   alt=""
                 />
@@ -93,7 +102,7 @@ const Update = ({ setOpenUpdate, user }) => {
                   src={
                     profile
                       ? URL.createObjectURL(profile)
-                      : "/upload/" + user.profilePic
+                      : profilepic
                   }
                   alt=""
                 />
