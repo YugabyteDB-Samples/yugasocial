@@ -65,8 +65,8 @@ export const updateUser = (req, res) => {
         req.body.name,
         req.body.city,
         req.body.website,
-        req.body.coverpic,
         req.body.profilepic,
+        req.body.coverpic,
         userInfo.id,
       ],
       (err, data) => {
@@ -93,8 +93,8 @@ export const updateUserYugabyte = (req, res) => {
         req.body.name,
         req.body.city,
         req.body.website,
-        req.body.coverpic,
         req.body.profilepic,
+        req.body.coverpic,
         userInfo.id,
       ],
       (err, data) => {

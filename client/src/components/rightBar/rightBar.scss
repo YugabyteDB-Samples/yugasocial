@@ -85,11 +85,11 @@
               color: white;
               cursor: pointer;
 
-              &:first-child {
+              &.follow {
                 background-color: #5271ff;
               }
 
-              &:last-child {
+              &.dismiss {
                 background-color: #f0544f;
               }
             }

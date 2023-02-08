@@ -15,19 +15,21 @@
 //       .toString(),
 //   },
 // };
-import fs from "fs";
+// import fs from "fs";
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const { Pool } = require("@yugabytedb/pg");
 import mysql from "mysql";
-function setDatabaseConnection(dbType) {
-  console.log("DB TYPE", dbType);
+function setDatabaseConnection() {
+  console.log(process.env);
   if (process.env.DB_TYPE === "mysql") {
-    return mysql.createConnection({
-      host: process.env.DB_HOST, //running in Docker, 'db' is name of database container
+    return mysql.createPool({
+      host: process.env.DB_HOST,
+      port: process.env.DB_PORT,
       user: process.env.DB_USER,
       password: process.env.DB_PASSWORD,
       database: process.env.DB_NAME,
+      connectionLimit: 100,
     });
   } else {
     return new Pool({
@@ -36,7 +38,7 @@ function setDatabaseConnection(dbType) {
       password: process.env.DB_PASSWORD,
       port: 5433,
       database: process.env.DB_NAME,
-      min: 1,
+      min: 5,
       max: 100,
       ssl: {
         rejectUnauthorized: false,

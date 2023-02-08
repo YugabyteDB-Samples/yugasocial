@@ -1,3 +1,4 @@
+DROP DATABASE IF EXISTS `social`;
 CREATE SCHEMA `social`;
 CREATE TABLE `social`.`users` (
   `id` INT NOT NULL AUTO_INCREMENT,
@@ -98,3 +99,9 @@ CREATE TABLE `social`.`likes` (
     REFERENCES `social`.`posts` (`id`)
     ON DELETE CASCADE
     ON UPDATE CASCADE);
+
+
+INSERT INTO social.users (`username`,`email`,`password`,`name`, `profilepic`) VALUE ('TomThomas12', 'tom@tomthomas.com', '$2a$10$aazOFhp7IJRwXfrp.9GyzeR8O7S3evYWwsOZQLYWD8Rb73VGUSzy.', 'Tom Thomas', 'tom.jpg');
+INSERT INTO social.users (`username`,`email`,`password`,`name`, `profilepic`) VALUE ('RChopra45', 'rajeev@rajeevchopra.com', '$2a$10$2jolg2aIv9OYTzMvTAQUbON7A6zlpPmju0l0nPFvZ4c5jotkQX.Y.', 'Rajeev Chopra', 'rajeev.jpg');
+INSERT INTO social.users (`username`,`email`,`password`,`name`, `profilepic`) VALUE ('YanaShev00', 'yana@yanashevchenko.com', '$2a$10$OqOEVBkCbcShNXTS3zQbJu9Pq/lP.TBLt84dYwmW03zk4b6dHYxEu', 'Yana Shevchenko', 'yana.jpg');
+INSERT INTO social.users (`username`,`email`,`password`,`name`, `profilepic`) VALUE ('JingXu42', 'jing@jingxu.com', '$2a$10$Ge/zL653Y0Hl6fartjvbteYmNRUIf8F6JQShes3DmchEo2yAVqfze', 'Jing Xu', 'jing.jpg');

@@ -41,11 +41,11 @@ const Update = ({ setOpenUpdate, user }) => {
     {
       onSuccess: (user) => {
         // Invalidate and refetch
-        queryClient.invalidateQueries(["user"]);
+        const data = JSON.parse(user?.config?.data);
         setCurrentUser((prevUser) => {
-          const data = JSON.parse(user?.config?.data);
           return { ...prevUser, ...data };
         });
+        queryClient.invalidateQueries(["user", parseInt(data.id)]);
       },
     }
   );
@@ -54,7 +54,6 @@ const Update = ({ setOpenUpdate, user }) => {
     e.preventDefault();
 
     //TODO: find a better way to get image URL
-    
     let coverUrl;
     let profileUrl;
     coverUrl = cover ? await upload(cover) : user.coverpic;
@@ -93,7 +92,7 @@ const Update = ({ setOpenUpdate, user }) => {
               type="file"
               id="cover"
               style={{ display: "none" }}
-              onChange={(e) => setCover(e.target.files[0])}
+              onChange={(e) => { setCover(e.target.files[0]) }}
             />
             <label htmlFor="profile">
               <span>Profile Picture</span>
@@ -113,7 +112,7 @@ const Update = ({ setOpenUpdate, user }) => {
               type="file"
               id="profile"
               style={{ display: "none" }}
-              onChange={(e) => setProfile(e.target.files[0])}
+              onChange={(e) => { setProfile(e.target.files[0]) }}
             />
           </div>
           <label>Email</label>
