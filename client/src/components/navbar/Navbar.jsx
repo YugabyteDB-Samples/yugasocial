@@ -21,7 +21,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="left">
         <Link to="/" style={{ textDecoration: "none" }}>
-          <span>YugabyteDB Social</span>
+          <span>YugaSocial</span>
         </Link>
         <Link to="/" style={{ textDecoration: "none" }}>
           <HomeOutlinedIcon />

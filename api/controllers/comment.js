@@ -4,7 +4,7 @@ import moment from "moment";
 
 export const getComments = (req, res) => {
   const q = `SELECT c.*, u.id AS userid, name, profilepic FROM comments AS c JOIN users AS u ON (u.id = c.userid)
-    WHERE c.postid = ? ORDER BY c.createdat DESC
+    WHERE c.postid = ? ORDER BY c.createdat ASC
     `;
 
   db.query(q, [req.query.postid], (err, data) => {
@@ -14,7 +14,7 @@ export const getComments = (req, res) => {
 };
 export const getCommentsYugabyte = (req, res) => {
   const q =
-    "SELECT c.*, u.id AS userid, name, profilepic FROM comments AS c JOIN users AS u ON (u.id = c.userid) WHERE c.postid = $1 ORDER BY c.createdat DESC";
+    "SELECT c.*, u.id AS userid, name, profilepic FROM comments AS c JOIN users AS u ON (u.id = c.userid) WHERE c.postid = $1 ORDER BY c.createdat ASC";
 
   db.query(q, [req.query.postid], (err, data) => {
     if (err) return res.status(500).json(err);

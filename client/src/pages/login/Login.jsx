@@ -36,7 +36,7 @@ const Login = () => {
     <div className="login">
       <div className="card">
         <div className="left">
-          <h1>YugabyteDB Social.</h1>
+          <h1>YugaSocial.</h1>
           <p>
             Manual Sharding Sucks.
           </p>
