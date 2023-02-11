@@ -1,3 +1,5 @@
+// import * as dotenv from "dotenv";
+// dotenv.config();
 import express from "express";
 const app = express();
 import authRoutes from "./routes/auth.js";
@@ -16,11 +18,13 @@ app.use((req, res, next) => {
   next();
 });
 app.use(express.json());
-app.use(
-  cors({
-    origin: "http://localhost:3000",
-  })
-);
+// app.use(cors());
+const corsConfig = {
+  origin: true,
+  credentials: true,
+};
+app.use(cors(corsConfig));
+app.options("*", cors(corsConfig));
 app.use(cookieParser());
 app.use("/images", express.static("images"));
 
@@ -47,6 +51,8 @@ app.use("/api/posts", postRoutes);
 app.use("/api/comments", commentRoutes);
 app.use("/api/likes", likeRoutes);
 app.use("/api/relationships", relationshipRoutes);
+
+app.use(express.static("../client/build"));
 
 app.listen(8800, () => {
   console.log("Server listening on port 8800.");

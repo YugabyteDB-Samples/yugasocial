@@ -3,7 +3,7 @@ import jwt from "jsonwebtoken";
 
 export const getUsers = (req, res) => {
   const userid = req.query.userid;
-  const q = "SELECT * FROM users WHERE id != ?";
+  const q = "SELECT * FROM users WHERE id != ? LIMIT 5";
 
   db.query(q, [userid], (err, data) => {
     if (err) return res.status(500).json(err);

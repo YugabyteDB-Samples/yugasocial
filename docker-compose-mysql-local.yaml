@@ -11,6 +11,8 @@ services:
       MYSQL_ROOT_PASSWORD: example
     ports:
       - 3306:3306
+    volumes:
+      - "./schema/mysql.sql:/docker-entrypoint-initdb.d/mysql.sql"
 
   adminer:
     image: adminer
@@ -24,7 +26,7 @@ services:
     restart: unless-stopped
     volumes:
       - ./client:/app/
-      - /app/node_modules #TODO: find out why I need this for npm packages to be available
+      - /app/node_modules
     ports:
       - 3000:3000
   api:
@@ -34,12 +36,14 @@ services:
     restart: unless-stopped
     volumes:
       - ./api:/app/
-      - /app/node_modules #TODO: find out why I need this for npm packages to be available
+      - /app/node_modules
     ports:
       - 8800:8800
     environment:
+      - DB_DEPLOYMENT_TYPE=docker
       - DB_TYPE=mysql
-      - DB_HOST=db # internal Docker connection
+      - DB_HOST=host.docker.internal
+      - DB_PORT=3306
       - DB_PASSWORD=example
       - DB_NAME=social
       - DB_USER=root

@@ -22,9 +22,9 @@ services:
     ports:
       - 8800:8800
     environment:
-      - DB_DEPLOYMENT_TYPE=remote
-      - DB_TYPE=yugabyte
-      - DB_HOST=[YUGABYTEDB_MANAGED_HOST]
-      - DB_PASSWORD=[YUGABYTEDB_MANAGED_PASSWORD]
-      - DB_NAME=yugabyte
-      - DB_USER=admin
+      - DB_TYPE=mysql
+      - DB_HOST=[MYSQL_REMOTE_HOST]
+      - DB_PORT=3306
+      - DB_PASSWORD=[MYSQL_REMOTE_PASSWORD]
+      - DB_NAME=social
+      - DB_USER=root

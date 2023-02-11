@@ -38,7 +38,7 @@ const Login = () => {
         <div className="left">
           <h1>YugaSocial.</h1>
           <p>
-            Manual Sharding Sucks.
+            Distribute the Love.
           </p>
           <span>Don't you have an account?</span>
           <Link to="/register">

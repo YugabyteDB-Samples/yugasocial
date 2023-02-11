@@ -16,7 +16,7 @@ if (process.env.DB_TYPE === "mysql") {
   router.post("/logout", logout);
 } else {
   router.post("/login", loginYugabyte);
-  router.post("/registerYugabyte", register);
+  router.post("/register", registerYugabyte);
   router.post("/logout", logout);
 }
 

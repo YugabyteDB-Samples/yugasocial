@@ -11,11 +11,21 @@ import { Link, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { DarkModeContext } from "../../context/darkModeContext";
 import { AuthContext } from "../../context/authContext";
-
+import { makeRequest } from "../../axios";
 const Navbar = () => {
   const { toggle, darkMode } = useContext(DarkModeContext);
   const { currentUser, setCurrentUser } = useContext(AuthContext);
   const navigate = useNavigate();
+  const handleLogout = async () => {
+    try {
+      await makeRequest.post("/auth/logout");
+      setCurrentUser(null);
+      console.log("user has been logged out")
+      navigate("/login");
+    } catch(e) {
+      console.log(e);
+    }
+  }
   const profilepic = currentUser?.profilepic?.length > 0 ? `http://localhost:8800/images/${currentUser.profilepic}` :  "https://static.thenounproject.com/png/3672322-200.png"
   return (
     <div className="navbar">
@@ -50,7 +60,7 @@ const Navbar = () => {
             <span>{currentUser.name}</span>
           </div>
         </Link>
-        <div onClick={() => {setCurrentUser(null); navigate("/login");}}>Logout</div>
+        <div onClick={handleLogout}>Logout</div>
       </div>
     </div>
   );

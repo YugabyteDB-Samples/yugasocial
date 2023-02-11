@@ -1,8 +1,8 @@
 import { useContext, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./register.scss";
-import axios from "axios";
 import { AuthContext } from "../../context/authContext";
+import { makeRequest } from "../../axios";
 
 const Register = () => {
   const [inputs, setInputs] = useState({
@@ -27,7 +27,7 @@ const Register = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:8800/api/auth/register", inputs);
+      const res = await makeRequest.post("/auth/register", inputs);
       setCurrentUser(res.data);
     } catch (err) {
       setErr(JSON.stringify(err.response.data));
@@ -40,7 +40,7 @@ const Register = () => {
         <div className="left">
           <h1>YugaSocial.</h1>
           <p>
-            Manual Sharding Sucks.
+            Distribute the Love.
           </p>
           <span>Do you have an account?</span>
           <Link to="/login">
@@ -74,8 +74,8 @@ const Register = () => {
               name="name"
               onChange={handleChange}
             />
-            {err && err}
             <button onClick={handleClick}>Register</button>
+            <div style={{maxWidth: "300px",overflowWrap: "break-word"}}>{err && err}</div>
           </form>
         </div>
       </div>
