@@ -94,3 +94,7 @@ docker compose -f docker-compose-mysql-local.yaml up
 
 to build and run your api services and when everything is up and running visit the app at
 [localhost:3000](http://localhost:3000).
+
+## Seed Database
+
+Refer to `/api/schema` and `/api/data` for schema and data seed files. These can be run against your database deployments. When running your database within Docker, schema files are automatically executed on startup.

@@ -56,3 +56,7 @@ to build and run your api services and when everything is up and running visit t
 If running YugabyteDB locally, you can also view the YugabyteDB UI Console at [localhost:7001](http://localhost:7001).
 
 <img width="1584" alt="Screen Shot 2022-11-02 at 7 36 17 PM" src="https://user-images.githubusercontent.com/2041330/199637751-616d19ff-e474-4d17-956c-fe672c53052c.png">
+
+## Seed Database
+
+Refer to `/api/schema` and `/api/data` for schema and data seed files. These can be run against your database deployments.
