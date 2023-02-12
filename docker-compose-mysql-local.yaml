@@ -12,7 +12,7 @@ services:
     ports:
       - 3306:3306
     volumes:
-      - "./schema/mysql.sql:/docker-entrypoint-initdb.d/mysql.sql"
+      - "./api/schema/mysql.sql:/docker-entrypoint-initdb.d/mysql.sql"
 
   adminer:
     image: adminer
