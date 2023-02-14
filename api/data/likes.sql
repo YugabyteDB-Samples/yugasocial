@@ -1,500 +1,502 @@
-insert into social.likes (userid, postid) values (989, 758);
-insert into social.likes (userid, postid) values (764, 617);
-insert into social.likes (userid, postid) values (988, 740);
-insert into social.likes (userid, postid) values (23, 40);
-insert into social.likes (userid, postid) values (291, 156);
-insert into social.likes (userid, postid) values (629, 826);
-insert into social.likes (userid, postid) values (926, 914);
-insert into social.likes (userid, postid) values (705, 217);
-insert into social.likes (userid, postid) values (239, 933);
-insert into social.likes (userid, postid) values (700, 577);
-insert into social.likes (userid, postid) values (858, 478);
-insert into social.likes (userid, postid) values (67, 1000);
-insert into social.likes (userid, postid) values (74, 836);
-insert into social.likes (userid, postid) values (197, 805);
-insert into social.likes (userid, postid) values (791, 476);
-insert into social.likes (userid, postid) values (261, 553);
-insert into social.likes (userid, postid) values (416, 107);
-insert into social.likes (userid, postid) values (646, 604);
-insert into social.likes (userid, postid) values (710, 457);
-insert into social.likes (userid, postid) values (205, 99);
-insert into social.likes (userid, postid) values (636, 661);
-insert into social.likes (userid, postid) values (417, 625);
-insert into social.likes (userid, postid) values (470, 233);
-insert into social.likes (userid, postid) values (767, 256);
-insert into social.likes (userid, postid) values (99, 540);
-insert into social.likes (userid, postid) values (833, 23);
-insert into social.likes (userid, postid) values (951, 304);
-insert into social.likes (userid, postid) values (502, 949);
-insert into social.likes (userid, postid) values (952, 567);
-insert into social.likes (userid, postid) values (807, 116);
-insert into social.likes (userid, postid) values (342, 71);
-insert into social.likes (userid, postid) values (24, 935);
-insert into social.likes (userid, postid) values (833, 362);
-insert into social.likes (userid, postid) values (544, 624);
-insert into social.likes (userid, postid) values (567, 164);
-insert into social.likes (userid, postid) values (963, 728);
-insert into social.likes (userid, postid) values (995, 510);
-insert into social.likes (userid, postid) values (379, 146);
-insert into social.likes (userid, postid) values (349, 790);
-insert into social.likes (userid, postid) values (595, 974);
-insert into social.likes (userid, postid) values (388, 42);
-insert into social.likes (userid, postid) values (531, 731);
-insert into social.likes (userid, postid) values (291, 787);
-insert into social.likes (userid, postid) values (634, 87);
-insert into social.likes (userid, postid) values (74, 267);
-insert into social.likes (userid, postid) values (626, 428);
-insert into social.likes (userid, postid) values (781, 151);
-insert into social.likes (userid, postid) values (923, 756);
-insert into social.likes (userid, postid) values (17, 546);
-insert into social.likes (userid, postid) values (268, 84);
-insert into social.likes (userid, postid) values (347, 88);
-insert into social.likes (userid, postid) values (597, 549);
-insert into social.likes (userid, postid) values (507, 954);
-insert into social.likes (userid, postid) values (707, 902);
-insert into social.likes (userid, postid) values (552, 615);
-insert into social.likes (userid, postid) values (751, 911);
-insert into social.likes (userid, postid) values (308, 703);
-insert into social.likes (userid, postid) values (694, 607);
-insert into social.likes (userid, postid) values (144, 663);
-insert into social.likes (userid, postid) values (468, 475);
-insert into social.likes (userid, postid) values (377, 306);
-insert into social.likes (userid, postid) values (282, 126);
-insert into social.likes (userid, postid) values (866, 813);
-insert into social.likes (userid, postid) values (153, 917);
-insert into social.likes (userid, postid) values (828, 272);
-insert into social.likes (userid, postid) values (296, 40);
-insert into social.likes (userid, postid) values (561, 491);
-insert into social.likes (userid, postid) values (949, 78);
-insert into social.likes (userid, postid) values (899, 694);
-insert into social.likes (userid, postid) values (377, 508);
-insert into social.likes (userid, postid) values (980, 893);
-insert into social.likes (userid, postid) values (61, 472);
-insert into social.likes (userid, postid) values (106, 729);
-insert into social.likes (userid, postid) values (766, 78);
-insert into social.likes (userid, postid) values (90, 904);
-insert into social.likes (userid, postid) values (834, 234);
-insert into social.likes (userid, postid) values (751, 450);
-insert into social.likes (userid, postid) values (681, 658);
-insert into social.likes (userid, postid) values (325, 344);
-insert into social.likes (userid, postid) values (518, 291);
-insert into social.likes (userid, postid) values (245, 383);
-insert into social.likes (userid, postid) values (279, 801);
-insert into social.likes (userid, postid) values (180, 178);
-insert into social.likes (userid, postid) values (800, 132);
-insert into social.likes (userid, postid) values (517, 257);
-insert into social.likes (userid, postid) values (340, 70);
-insert into social.likes (userid, postid) values (139, 760);
-insert into social.likes (userid, postid) values (729, 99);
-insert into social.likes (userid, postid) values (669, 121);
-insert into social.likes (userid, postid) values (623, 360);
-insert into social.likes (userid, postid) values (14, 270);
-insert into social.likes (userid, postid) values (978, 698);
-insert into social.likes (userid, postid) values (431, 789);
-insert into social.likes (userid, postid) values (598, 686);
-insert into social.likes (userid, postid) values (308, 574);
-insert into social.likes (userid, postid) values (873, 896);
-insert into social.likes (userid, postid) values (580, 507);
-insert into social.likes (userid, postid) values (665, 738);
-insert into social.likes (userid, postid) values (146, 479);
-insert into social.likes (userid, postid) values (871, 167);
-insert into social.likes (userid, postid) values (613, 123);
-insert into social.likes (userid, postid) values (179, 3);
-insert into social.likes (userid, postid) values (700, 334);
-insert into social.likes (userid, postid) values (569, 701);
-insert into social.likes (userid, postid) values (249, 358);
-insert into social.likes (userid, postid) values (468, 992);
-insert into social.likes (userid, postid) values (526, 715);
-insert into social.likes (userid, postid) values (470, 883);
-insert into social.likes (userid, postid) values (369, 703);
-insert into social.likes (userid, postid) values (437, 918);
-insert into social.likes (userid, postid) values (818, 636);
-insert into social.likes (userid, postid) values (272, 836);
-insert into social.likes (userid, postid) values (494, 371);
-insert into social.likes (userid, postid) values (546, 198);
-insert into social.likes (userid, postid) values (80, 131);
-insert into social.likes (userid, postid) values (97, 615);
-insert into social.likes (userid, postid) values (327, 50);
-insert into social.likes (userid, postid) values (885, 246);
-insert into social.likes (userid, postid) values (282, 736);
-insert into social.likes (userid, postid) values (409, 147);
-insert into social.likes (userid, postid) values (868, 61);
-insert into social.likes (userid, postid) values (107, 947);
-insert into social.likes (userid, postid) values (667, 374);
-insert into social.likes (userid, postid) values (622, 382);
-insert into social.likes (userid, postid) values (277, 449);
-insert into social.likes (userid, postid) values (23, 837);
-insert into social.likes (userid, postid) values (25, 821);
-insert into social.likes (userid, postid) values (680, 791);
-insert into social.likes (userid, postid) values (11, 816);
-insert into social.likes (userid, postid) values (725, 597);
-insert into social.likes (userid, postid) values (969, 22);
-insert into social.likes (userid, postid) values (845, 215);
-insert into social.likes (userid, postid) values (807, 182);
-insert into social.likes (userid, postid) values (35, 274);
-insert into social.likes (userid, postid) values (471, 774);
-insert into social.likes (userid, postid) values (338, 290);
-insert into social.likes (userid, postid) values (248, 37);
-insert into social.likes (userid, postid) values (986, 696);
-insert into social.likes (userid, postid) values (851, 779);
-insert into social.likes (userid, postid) values (232, 535);
-insert into social.likes (userid, postid) values (185, 58);
-insert into social.likes (userid, postid) values (769, 39);
-insert into social.likes (userid, postid) values (309, 563);
-insert into social.likes (userid, postid) values (781, 572);
-insert into social.likes (userid, postid) values (518, 397);
-insert into social.likes (userid, postid) values (797, 552);
-insert into social.likes (userid, postid) values (143, 193);
-insert into social.likes (userid, postid) values (696, 463);
-insert into social.likes (userid, postid) values (541, 925);
-insert into social.likes (userid, postid) values (239, 872);
-insert into social.likes (userid, postid) values (249, 707);
-insert into social.likes (userid, postid) values (126, 650);
-insert into social.likes (userid, postid) values (200, 170);
-insert into social.likes (userid, postid) values (943, 579);
-insert into social.likes (userid, postid) values (663, 860);
-insert into social.likes (userid, postid) values (765, 188);
-insert into social.likes (userid, postid) values (348, 598);
-insert into social.likes (userid, postid) values (685, 211);
-insert into social.likes (userid, postid) values (344, 979);
-insert into social.likes (userid, postid) values (751, 392);
-insert into social.likes (userid, postid) values (568, 460);
-insert into social.likes (userid, postid) values (573, 595);
-insert into social.likes (userid, postid) values (940, 407);
-insert into social.likes (userid, postid) values (387, 910);
-insert into social.likes (userid, postid) values (602, 445);
-insert into social.likes (userid, postid) values (558, 148);
-insert into social.likes (userid, postid) values (887, 208);
-insert into social.likes (userid, postid) values (752, 539);
-insert into social.likes (userid, postid) values (677, 85);
-insert into social.likes (userid, postid) values (183, 67);
-insert into social.likes (userid, postid) values (169, 348);
-insert into social.likes (userid, postid) values (619, 389);
-insert into social.likes (userid, postid) values (71, 942);
-insert into social.likes (userid, postid) values (971, 369);
-insert into social.likes (userid, postid) values (384, 843);
-insert into social.likes (userid, postid) values (743, 671);
-insert into social.likes (userid, postid) values (418, 4);
-insert into social.likes (userid, postid) values (433, 360);
-insert into social.likes (userid, postid) values (945, 569);
-insert into social.likes (userid, postid) values (473, 3);
-insert into social.likes (userid, postid) values (981, 865);
-insert into social.likes (userid, postid) values (552, 404);
-insert into social.likes (userid, postid) values (110, 187);
-insert into social.likes (userid, postid) values (621, 110);
-insert into social.likes (userid, postid) values (915, 815);
-insert into social.likes (userid, postid) values (911, 303);
-insert into social.likes (userid, postid) values (987, 496);
-insert into social.likes (userid, postid) values (472, 627);
-insert into social.likes (userid, postid) values (9, 765);
-insert into social.likes (userid, postid) values (187, 311);
-insert into social.likes (userid, postid) values (279, 809);
-insert into social.likes (userid, postid) values (627, 28);
-insert into social.likes (userid, postid) values (126, 221);
-insert into social.likes (userid, postid) values (402, 528);
-insert into social.likes (userid, postid) values (393, 324);
-insert into social.likes (userid, postid) values (355, 414);
-insert into social.likes (userid, postid) values (946, 98);
-insert into social.likes (userid, postid) values (728, 46);
-insert into social.likes (userid, postid) values (567, 889);
-insert into social.likes (userid, postid) values (166, 254);
-insert into social.likes (userid, postid) values (603, 975);
-insert into social.likes (userid, postid) values (433, 825);
-insert into social.likes (userid, postid) values (924, 582);
-insert into social.likes (userid, postid) values (963, 225);
-insert into social.likes (userid, postid) values (974, 951);
-insert into social.likes (userid, postid) values (452, 971);
-insert into social.likes (userid, postid) values (624, 830);
-insert into social.likes (userid, postid) values (607, 207);
-insert into social.likes (userid, postid) values (841, 854);
-insert into social.likes (userid, postid) values (494, 829);
-insert into social.likes (userid, postid) values (727, 656);
-insert into social.likes (userid, postid) values (535, 552);
-insert into social.likes (userid, postid) values (225, 441);
-insert into social.likes (userid, postid) values (41, 572);
-insert into social.likes (userid, postid) values (598, 126);
-insert into social.likes (userid, postid) values (471, 920);
-insert into social.likes (userid, postid) values (909, 169);
-insert into social.likes (userid, postid) values (729, 266);
-insert into social.likes (userid, postid) values (74, 790);
-insert into social.likes (userid, postid) values (321, 11);
-insert into social.likes (userid, postid) values (159, 313);
-insert into social.likes (userid, postid) values (983, 381);
-insert into social.likes (userid, postid) values (182, 922);
-insert into social.likes (userid, postid) values (240, 60);
-insert into social.likes (userid, postid) values (993, 884);
-insert into social.likes (userid, postid) values (608, 527);
-insert into social.likes (userid, postid) values (839, 698);
-insert into social.likes (userid, postid) values (924, 675);
-insert into social.likes (userid, postid) values (296, 782);
-insert into social.likes (userid, postid) values (449, 967);
-insert into social.likes (userid, postid) values (655, 690);
-insert into social.likes (userid, postid) values (465, 134);
-insert into social.likes (userid, postid) values (532, 811);
-insert into social.likes (userid, postid) values (869, 419);
-insert into social.likes (userid, postid) values (765, 401);
-insert into social.likes (userid, postid) values (290, 435);
-insert into social.likes (userid, postid) values (116, 552);
-insert into social.likes (userid, postid) values (868, 871);
-insert into social.likes (userid, postid) values (503, 219);
-insert into social.likes (userid, postid) values (682, 302);
-insert into social.likes (userid, postid) values (893, 753);
-insert into social.likes (userid, postid) values (962, 648);
-insert into social.likes (userid, postid) values (602, 806);
-insert into social.likes (userid, postid) values (492, 561);
-insert into social.likes (userid, postid) values (889, 944);
-insert into social.likes (userid, postid) values (444, 907);
-insert into social.likes (userid, postid) values (375, 59);
-insert into social.likes (userid, postid) values (422, 331);
-insert into social.likes (userid, postid) values (210, 512);
-insert into social.likes (userid, postid) values (536, 31);
-insert into social.likes (userid, postid) values (491, 994);
-insert into social.likes (userid, postid) values (644, 541);
-insert into social.likes (userid, postid) values (989, 52);
-insert into social.likes (userid, postid) values (986, 250);
-insert into social.likes (userid, postid) values (619, 536);
-insert into social.likes (userid, postid) values (775, 758);
-insert into social.likes (userid, postid) values (833, 458);
-insert into social.likes (userid, postid) values (522, 740);
-insert into social.likes (userid, postid) values (490, 489);
-insert into social.likes (userid, postid) values (318, 574);
-insert into social.likes (userid, postid) values (694, 728);
-insert into social.likes (userid, postid) values (865, 650);
-insert into social.likes (userid, postid) values (960, 38);
-insert into social.likes (userid, postid) values (350, 117);
-insert into social.likes (userid, postid) values (195, 579);
-insert into social.likes (userid, postid) values (437, 691);
-insert into social.likes (userid, postid) values (612, 856);
-insert into social.likes (userid, postid) values (528, 248);
-insert into social.likes (userid, postid) values (179, 783);
-insert into social.likes (userid, postid) values (372, 806);
-insert into social.likes (userid, postid) values (727, 923);
-insert into social.likes (userid, postid) values (262, 665);
-insert into social.likes (userid, postid) values (714, 357);
-insert into social.likes (userid, postid) values (559, 51);
-insert into social.likes (userid, postid) values (507, 63);
-insert into social.likes (userid, postid) values (325, 5);
-insert into social.likes (userid, postid) values (243, 739);
-insert into social.likes (userid, postid) values (695, 964);
-insert into social.likes (userid, postid) values (408, 623);
-insert into social.likes (userid, postid) values (319, 540);
-insert into social.likes (userid, postid) values (457, 25);
-insert into social.likes (userid, postid) values (759, 214);
-insert into social.likes (userid, postid) values (585, 884);
-insert into social.likes (userid, postid) values (380, 752);
-insert into social.likes (userid, postid) values (615, 918);
-insert into social.likes (userid, postid) values (731, 197);
-insert into social.likes (userid, postid) values (833, 139);
-insert into social.likes (userid, postid) values (31, 386);
-insert into social.likes (userid, postid) values (199, 804);
-insert into social.likes (userid, postid) values (65, 244);
-insert into social.likes (userid, postid) values (900, 105);
-insert into social.likes (userid, postid) values (890, 835);
-insert into social.likes (userid, postid) values (474, 688);
-insert into social.likes (userid, postid) values (134, 842);
-insert into social.likes (userid, postid) values (671, 765);
-insert into social.likes (userid, postid) values (699, 251);
-insert into social.likes (userid, postid) values (285, 653);
-insert into social.likes (userid, postid) values (812, 360);
-insert into social.likes (userid, postid) values (188, 298);
-insert into social.likes (userid, postid) values (117, 455);
-insert into social.likes (userid, postid) values (28, 83);
-insert into social.likes (userid, postid) values (424, 932);
-insert into social.likes (userid, postid) values (324, 423);
-insert into social.likes (userid, postid) values (369, 363);
-insert into social.likes (userid, postid) values (601, 661);
-insert into social.likes (userid, postid) values (80, 213);
-insert into social.likes (userid, postid) values (381, 562);
-insert into social.likes (userid, postid) values (310, 952);
-insert into social.likes (userid, postid) values (130, 638);
-insert into social.likes (userid, postid) values (808, 957);
-insert into social.likes (userid, postid) values (677, 64);
-insert into social.likes (userid, postid) values (277, 559);
-insert into social.likes (userid, postid) values (505, 804);
-insert into social.likes (userid, postid) values (85, 588);
-insert into social.likes (userid, postid) values (47, 419);
-insert into social.likes (userid, postid) values (257, 534);
-insert into social.likes (userid, postid) values (872, 344);
-insert into social.likes (userid, postid) values (258, 580);
-insert into social.likes (userid, postid) values (151, 5);
-insert into social.likes (userid, postid) values (292, 889);
-insert into social.likes (userid, postid) values (509, 36);
-insert into social.likes (userid, postid) values (445, 858);
-insert into social.likes (userid, postid) values (50, 226);
-insert into social.likes (userid, postid) values (494, 72);
-insert into social.likes (userid, postid) values (635, 784);
-insert into social.likes (userid, postid) values (687, 782);
-insert into social.likes (userid, postid) values (742, 332);
-insert into social.likes (userid, postid) values (746, 122);
-insert into social.likes (userid, postid) values (461, 776);
-insert into social.likes (userid, postid) values (405, 256);
-insert into social.likes (userid, postid) values (922, 487);
-insert into social.likes (userid, postid) values (311, 467);
-insert into social.likes (userid, postid) values (503, 736);
-insert into social.likes (userid, postid) values (744, 397);
-insert into social.likes (userid, postid) values (740, 641);
-insert into social.likes (userid, postid) values (187, 236);
-insert into social.likes (userid, postid) values (221, 255);
-insert into social.likes (userid, postid) values (134, 311);
-insert into social.likes (userid, postid) values (788, 195);
-insert into social.likes (userid, postid) values (509, 436);
-insert into social.likes (userid, postid) values (448, 700);
-insert into social.likes (userid, postid) values (96, 531);
-insert into social.likes (userid, postid) values (98, 291);
-insert into social.likes (userid, postid) values (434, 659);
-insert into social.likes (userid, postid) values (477, 106);
-insert into social.likes (userid, postid) values (433, 738);
-insert into social.likes (userid, postid) values (625, 190);
-insert into social.likes (userid, postid) values (680, 824);
-insert into social.likes (userid, postid) values (255, 810);
-insert into social.likes (userid, postid) values (198, 743);
-insert into social.likes (userid, postid) values (585, 277);
-insert into social.likes (userid, postid) values (946, 452);
-insert into social.likes (userid, postid) values (734, 419);
-insert into social.likes (userid, postid) values (958, 167);
-insert into social.likes (userid, postid) values (371, 455);
-insert into social.likes (userid, postid) values (794, 281);
-insert into social.likes (userid, postid) values (52, 382);
-insert into social.likes (userid, postid) values (121, 646);
-insert into social.likes (userid, postid) values (191, 574);
-insert into social.likes (userid, postid) values (916, 887);
-insert into social.likes (userid, postid) values (543, 25);
-insert into social.likes (userid, postid) values (837, 495);
-insert into social.likes (userid, postid) values (202, 875);
-insert into social.likes (userid, postid) values (737, 899);
-insert into social.likes (userid, postid) values (670, 632);
-insert into social.likes (userid, postid) values (542, 222);
-insert into social.likes (userid, postid) values (304, 105);
-insert into social.likes (userid, postid) values (486, 62);
-insert into social.likes (userid, postid) values (675, 321);
-insert into social.likes (userid, postid) values (781, 348);
-insert into social.likes (userid, postid) values (633, 299);
-insert into social.likes (userid, postid) values (554, 876);
-insert into social.likes (userid, postid) values (149, 780);
-insert into social.likes (userid, postid) values (25, 487);
-insert into social.likes (userid, postid) values (950, 19);
-insert into social.likes (userid, postid) values (429, 346);
-insert into social.likes (userid, postid) values (654, 581);
-insert into social.likes (userid, postid) values (324, 612);
-insert into social.likes (userid, postid) values (160, 398);
-insert into social.likes (userid, postid) values (236, 490);
-insert into social.likes (userid, postid) values (774, 373);
-insert into social.likes (userid, postid) values (850, 57);
-insert into social.likes (userid, postid) values (279, 466);
-insert into social.likes (userid, postid) values (533, 543);
-insert into social.likes (userid, postid) values (93, 158);
-insert into social.likes (userid, postid) values (452, 316);
-insert into social.likes (userid, postid) values (901, 621);
-insert into social.likes (userid, postid) values (711, 270);
-insert into social.likes (userid, postid) values (203, 43);
-insert into social.likes (userid, postid) values (832, 685);
-insert into social.likes (userid, postid) values (97, 8);
-insert into social.likes (userid, postid) values (23, 588);
-insert into social.likes (userid, postid) values (248, 460);
-insert into social.likes (userid, postid) values (829, 808);
-insert into social.likes (userid, postid) values (988, 760);
-insert into social.likes (userid, postid) values (314, 55);
-insert into social.likes (userid, postid) values (149, 699);
-insert into social.likes (userid, postid) values (429, 588);
-insert into social.likes (userid, postid) values (280, 483);
-insert into social.likes (userid, postid) values (324, 694);
-insert into social.likes (userid, postid) values (67, 294);
-insert into social.likes (userid, postid) values (606, 680);
-insert into social.likes (userid, postid) values (406, 357);
-insert into social.likes (userid, postid) values (197, 319);
-insert into social.likes (userid, postid) values (944, 267);
-insert into social.likes (userid, postid) values (30, 236);
-insert into social.likes (userid, postid) values (316, 246);
-insert into social.likes (userid, postid) values (880, 646);
-insert into social.likes (userid, postid) values (902, 486);
-insert into social.likes (userid, postid) values (567, 658);
-insert into social.likes (userid, postid) values (359, 215);
-insert into social.likes (userid, postid) values (38, 947);
-insert into social.likes (userid, postid) values (480, 3);
-insert into social.likes (userid, postid) values (185, 621);
-insert into social.likes (userid, postid) values (435, 831);
-insert into social.likes (userid, postid) values (887, 912);
-insert into social.likes (userid, postid) values (583, 226);
-insert into social.likes (userid, postid) values (944, 588);
-insert into social.likes (userid, postid) values (743, 857);
-insert into social.likes (userid, postid) values (782, 56);
-insert into social.likes (userid, postid) values (943, 138);
-insert into social.likes (userid, postid) values (572, 433);
-insert into social.likes (userid, postid) values (116, 749);
-insert into social.likes (userid, postid) values (57, 733);
-insert into social.likes (userid, postid) values (909, 749);
-insert into social.likes (userid, postid) values (353, 896);
-insert into social.likes (userid, postid) values (833, 933);
-insert into social.likes (userid, postid) values (470, 472);
-insert into social.likes (userid, postid) values (474, 755);
-insert into social.likes (userid, postid) values (919, 190);
-insert into social.likes (userid, postid) values (387, 138);
-insert into social.likes (userid, postid) values (608, 715);
-insert into social.likes (userid, postid) values (594, 41);
-insert into social.likes (userid, postid) values (237, 452);
-insert into social.likes (userid, postid) values (488, 420);
-insert into social.likes (userid, postid) values (733, 598);
-insert into social.likes (userid, postid) values (952, 556);
-insert into social.likes (userid, postid) values (794, 952);
-insert into social.likes (userid, postid) values (332, 714);
-insert into social.likes (userid, postid) values (677, 259);
-insert into social.likes (userid, postid) values (630, 77);
-insert into social.likes (userid, postid) values (700, 144);
-insert into social.likes (userid, postid) values (902, 4);
-insert into social.likes (userid, postid) values (312, 882);
-insert into social.likes (userid, postid) values (772, 299);
-insert into social.likes (userid, postid) values (649, 439);
-insert into social.likes (userid, postid) values (621, 778);
-insert into social.likes (userid, postid) values (269, 198);
-insert into social.likes (userid, postid) values (356, 627);
-insert into social.likes (userid, postid) values (774, 358);
-insert into social.likes (userid, postid) values (139, 846);
-insert into social.likes (userid, postid) values (244, 96);
-insert into social.likes (userid, postid) values (333, 263);
-insert into social.likes (userid, postid) values (786, 367);
-insert into social.likes (userid, postid) values (814, 379);
-insert into social.likes (userid, postid) values (653, 277);
-insert into social.likes (userid, postid) values (651, 638);
-insert into social.likes (userid, postid) values (883, 963);
-insert into social.likes (userid, postid) values (705, 935);
-insert into social.likes (userid, postid) values (496, 63);
-insert into social.likes (userid, postid) values (59, 419);
-insert into social.likes (userid, postid) values (888, 173);
-insert into social.likes (userid, postid) values (998, 524);
-insert into social.likes (userid, postid) values (264, 129);
-insert into social.likes (userid, postid) values (565, 303);
-insert into social.likes (userid, postid) values (832, 804);
-insert into social.likes (userid, postid) values (6, 709);
-insert into social.likes (userid, postid) values (104, 452);
-insert into social.likes (userid, postid) values (47, 704);
-insert into social.likes (userid, postid) values (403, 601);
-insert into social.likes (userid, postid) values (146, 193);
-insert into social.likes (userid, postid) values (7, 838);
-insert into social.likes (userid, postid) values (592, 436);
-insert into social.likes (userid, postid) values (155, 675);
-insert into social.likes (userid, postid) values (235, 572);
-insert into social.likes (userid, postid) values (442, 140);
-insert into social.likes (userid, postid) values (805, 413);
-insert into social.likes (userid, postid) values (886, 59);
-insert into social.likes (userid, postid) values (648, 75);
-insert into social.likes (userid, postid) values (786, 515);
-insert into social.likes (userid, postid) values (654, 615);
-insert into social.likes (userid, postid) values (25, 92);
-insert into social.likes (userid, postid) values (756, 958);
-insert into social.likes (userid, postid) values (718, 455);
-insert into social.likes (userid, postid) values (635, 856);
-insert into social.likes (userid, postid) values (770, 124);
-insert into social.likes (userid, postid) values (191, 454);
-insert into social.likes (userid, postid) values (978, 797);
-insert into social.likes (userid, postid) values (912, 745);
-insert into social.likes (userid, postid) values (60, 138);
-insert into social.likes (userid, postid) values (425, 496);
-insert into social.likes (userid, postid) values (746, 75);
-insert into social.likes (userid, postid) values (440, 555);
-insert into social.likes (userid, postid) values (573, 268);
-insert into social.likes (userid, postid) values (19, 512);
-insert into social.likes (userid, postid) values (367, 540);
-insert into social.likes (userid, postid) values (102, 448);
-insert into social.likes (userid, postid) values (386, 589);
-insert into social.likes (userid, postid) values (479, 668);
-insert into social.likes (userid, postid) values (398, 950);
+insert into social.likes (userid, postid) 
+values 
+(989, 758),
+(764, 617),
+(988, 740),
+(23, 40),
+(291, 156),
+(629, 826),
+(926, 914),
+(705, 217),
+(239, 933),
+(700, 577),
+(858, 478),
+(67, 1000),
+(74, 836),
+(197, 805),
+(791, 476),
+(261, 553),
+(416, 107),
+(646, 604),
+(710, 457),
+(205, 99),
+(636, 661),
+(417, 625),
+(470, 233),
+(767, 256),
+(99, 540),
+(833, 23),
+(951, 304),
+(502, 949),
+(952, 567),
+(807, 116),
+(342, 71),
+(24, 935),
+(833, 362),
+(544, 624),
+(567, 164),
+(963, 728),
+(995, 510),
+(379, 146),
+(349, 790),
+(595, 974),
+(388, 42),
+(531, 731),
+(291, 787),
+(634, 87),
+(74, 267),
+(626, 428),
+(781, 151),
+(923, 756),
+(17, 546),
+(268, 84),
+(347, 88),
+(597, 549),
+(507, 954),
+(707, 902),
+(552, 615),
+(751, 911),
+(308, 703),
+(694, 607),
+(144, 663),
+(468, 475),
+(377, 306),
+(282, 126),
+(866, 813),
+(153, 917),
+(828, 272),
+(296, 40),
+(561, 491),
+(949, 78),
+(899, 694),
+(377, 508),
+(980, 893),
+(61, 472),
+(106, 729),
+(766, 78),
+(90, 904),
+(834, 234),
+(751, 450),
+(681, 658),
+(325, 344),
+(518, 291),
+(245, 383),
+(279, 801),
+(180, 178),
+(800, 132),
+(517, 257),
+(340, 70),
+(139, 760),
+(729, 99),
+(669, 121),
+(623, 360),
+(14, 270),
+(978, 698),
+(431, 789),
+(598, 686),
+(308, 574),
+(873, 896),
+(580, 507),
+(665, 738),
+(146, 479),
+(871, 167),
+(613, 123),
+(179, 3),
+(700, 334),
+(569, 701),
+(249, 358),
+(468, 992),
+(526, 715),
+(470, 883),
+(369, 703),
+(437, 918),
+(818, 636),
+(272, 836),
+(494, 371),
+(546, 198),
+(80, 131),
+(97, 615),
+(327, 50),
+(885, 246),
+(282, 736),
+(409, 147),
+(868, 61),
+(107, 947),
+(667, 374),
+(622, 382),
+(277, 449),
+(23, 837),
+(25, 821),
+(680, 791),
+(11, 816),
+(725, 597),
+(969, 22),
+(845, 215),
+(807, 182),
+(35, 274),
+(471, 774),
+(338, 290),
+(248, 37),
+(986, 696),
+(851, 779),
+(232, 535),
+(185, 58),
+(769, 39),
+(309, 563),
+(781, 572),
+(518, 397),
+(797, 552),
+(143, 193),
+(696, 463),
+(541, 925),
+(239, 872),
+(249, 707),
+(126, 650),
+(200, 170),
+(943, 579),
+(663, 860),
+(765, 188),
+(348, 598),
+(685, 211),
+(344, 979),
+(751, 392),
+(568, 460),
+(573, 595),
+(940, 407),
+(387, 910),
+(602, 445),
+(558, 148),
+(887, 208),
+(752, 539),
+(677, 85),
+(183, 67),
+(169, 348),
+(619, 389),
+(71, 942),
+(971, 369),
+(384, 843),
+(743, 671),
+(418, 4),
+(433, 360),
+(945, 569),
+(473, 3),
+(981, 865),
+(552, 404),
+(110, 187),
+(621, 110),
+(915, 815),
+(911, 303),
+(987, 496),
+(472, 627),
+(9, 765),
+(187, 311),
+(279, 809),
+(627, 28),
+(126, 221),
+(402, 528),
+(393, 324),
+(355, 414),
+(946, 98),
+(728, 46),
+(567, 889),
+(166, 254),
+(603, 975),
+(433, 825),
+(924, 582),
+(963, 225),
+(974, 951),
+(452, 971),
+(624, 830),
+(607, 207),
+(841, 854),
+(494, 829),
+(727, 656),
+(535, 552),
+(225, 441),
+(41, 572),
+(598, 126),
+(471, 920),
+(909, 169),
+(729, 266),
+(74, 790),
+(321, 11),
+(159, 313),
+(983, 381),
+(182, 922),
+(240, 60),
+(993, 884),
+(608, 527),
+(839, 698),
+(924, 675),
+(296, 782),
+(449, 967),
+(655, 690),
+(465, 134),
+(532, 811),
+(869, 419),
+(765, 401),
+(290, 435),
+(116, 552),
+(868, 871),
+(503, 219),
+(682, 302),
+(893, 753),
+(962, 648),
+(602, 806),
+(492, 561),
+(889, 944),
+(444, 907),
+(375, 59),
+(422, 331),
+(210, 512),
+(536, 31),
+(491, 994),
+(644, 541),
+(989, 52),
+(986, 250),
+(619, 536),
+(775, 758),
+(833, 458),
+(522, 740),
+(490, 489),
+(318, 574),
+(694, 728),
+(865, 650),
+(960, 38),
+(350, 117),
+(195, 579),
+(437, 691),
+(612, 856),
+(528, 248),
+(179, 783),
+(372, 806),
+(727, 923),
+(262, 665),
+(714, 357),
+(559, 51),
+(507, 63),
+(325, 5),
+(243, 739),
+(695, 964),
+(408, 623),
+(319, 540),
+(457, 25),
+(759, 214),
+(585, 884),
+(380, 752),
+(615, 918),
+(731, 197),
+(833, 139),
+(31, 386),
+(199, 804),
+(65, 244),
+(900, 105),
+(890, 835),
+(474, 688),
+(134, 842),
+(671, 765),
+(699, 251),
+(285, 653),
+(812, 360),
+(188, 298),
+(117, 455),
+(28, 83),
+(424, 932),
+(324, 423),
+(369, 363),
+(601, 661),
+(80, 213),
+(381, 562),
+(310, 952),
+(130, 638),
+(808, 957),
+(677, 64),
+(277, 559),
+(505, 804),
+(85, 588),
+(47, 419),
+(257, 534),
+(872, 344),
+(258, 580),
+(151, 5),
+(292, 889),
+(509, 36),
+(445, 858),
+(50, 226),
+(494, 72),
+(635, 784),
+(687, 782),
+(742, 332),
+(746, 122),
+(461, 776),
+(405, 256),
+(922, 487),
+(311, 467),
+(503, 736),
+(744, 397),
+(740, 641),
+(187, 236),
+(221, 255),
+(134, 311),
+(788, 195),
+(509, 436),
+(448, 700),
+(96, 531),
+(98, 291),
+(434, 659),
+(477, 106),
+(433, 738),
+(625, 190),
+(680, 824),
+(255, 810),
+(198, 743),
+(585, 277),
+(946, 452),
+(734, 419),
+(958, 167),
+(371, 455),
+(794, 281),
+(52, 382),
+(121, 646),
+(191, 574),
+(916, 887),
+(543, 25),
+(837, 495),
+(202, 875),
+(737, 899),
+(670, 632),
+(542, 222),
+(304, 105),
+(486, 62),
+(675, 321),
+(781, 348),
+(633, 299),
+(554, 876),
+(149, 780),
+(25, 487),
+(950, 19),
+(429, 346),
+(654, 581),
+(324, 612),
+(160, 398),
+(236, 490),
+(774, 373),
+(850, 57),
+(279, 466),
+(533, 543),
+(93, 158),
+(452, 316),
+(901, 621),
+(711, 270),
+(203, 43),
+(832, 685),
+(97, 8),
+(23, 588),
+(248, 460),
+(829, 808),
+(988, 760),
+(314, 55),
+(149, 699),
+(429, 588),
+(280, 483),
+(324, 694),
+(67, 294),
+(606, 680),
+(406, 357),
+(197, 319),
+(944, 267),
+(30, 236),
+(316, 246),
+(880, 646),
+(902, 486),
+(567, 658),
+(359, 215),
+(38, 947),
+(480, 3),
+(185, 621),
+(435, 831),
+(887, 912),
+(583, 226),
+(944, 588),
+(743, 857),
+(782, 56),
+(943, 138),
+(572, 433),
+(116, 749),
+(57, 733),
+(909, 749),
+(353, 896),
+(833, 933),
+(470, 472),
+(474, 755),
+(919, 190),
+(387, 138),
+(608, 715),
+(594, 41),
+(237, 452),
+(488, 420),
+(733, 598),
+(952, 556),
+(794, 952),
+(332, 714),
+(677, 259),
+(630, 77),
+(700, 144),
+(902, 4),
+(312, 882),
+(772, 299),
+(649, 439),
+(621, 778),
+(269, 198),
+(356, 627),
+(774, 358),
+(139, 846),
+(244, 96),
+(333, 263),
+(786, 367),
+(814, 379),
+(653, 277),
+(651, 638),
+(883, 963),
+(705, 935),
+(496, 63),
+(59, 419),
+(888, 173),
+(998, 524),
+(264, 129),
+(565, 303),
+(832, 804),
+(6, 709),
+(104, 452),
+(47, 704),
+(403, 601),
+(146, 193),
+(7, 838),
+(592, 436),
+(155, 675),
+(235, 572),
+(442, 140),
+(805, 413),
+(886, 59),
+(648, 75),
+(786, 515),
+(654, 615),
+(25, 92),
+(756, 958),
+(718, 455),
+(635, 856),
+(770, 124),
+(191, 454),
+(978, 797),
+(912, 745),
+(60, 138),
+(425, 496),
+(746, 75),
+(440, 555),
+(573, 268),
+(19, 512),
+(367, 540),
+(102, 448),
+(386, 589),
+(479, 668),
+(398, 950);

@@ -12,7 +12,13 @@ services:
     ports:
       - 3306:3306
     volumes:
-      - "./api/schema/mysql.sql:/docker-entrypoint-initdb.d/mysql.sql"
+      - "./api/schema/mysql.sql:/docker-entrypoint-initdb.d/1.sql"
+      - "./api/data/users.sql:/docker-entrypoint-initdb.d/2.sql"
+      - "./api/data/posts.sql:/docker-entrypoint-initdb.d/3.sql"
+      - "./api/data/comments.sql:/docker-entrypoint-initdb.d/4.sql"
+      - "./api/data/relationships.sql:/docker-entrypoint-initdb.d/5.sql"
+      - "./api/data/likes.sql:/docker-entrypoint-initdb.d/6.sql"
+      - "./api/data/stories.sql:/docker-entrypoint-initdb.d/7.sql"
 
   adminer:
     image: adminer

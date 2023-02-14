@@ -1,1000 +1,1002 @@
-insert into social.relationships (followeruserid, followeduserid) values (445, 535);
-insert into social.relationships (followeruserid, followeduserid) values (891, 802);
-insert into social.relationships (followeruserid, followeduserid) values (969, 646);
-insert into social.relationships (followeruserid, followeduserid) values (741, 882);
-insert into social.relationships (followeruserid, followeduserid) values (17, 811);
-insert into social.relationships (followeruserid, followeduserid) values (642, 233);
-insert into social.relationships (followeruserid, followeduserid) values (911, 977);
-insert into social.relationships (followeruserid, followeduserid) values (702, 242);
-insert into social.relationships (followeruserid, followeduserid) values (533, 529);
-insert into social.relationships (followeruserid, followeduserid) values (623, 398);
-insert into social.relationships (followeruserid, followeduserid) values (571, 432);
-insert into social.relationships (followeruserid, followeduserid) values (747, 264);
-insert into social.relationships (followeruserid, followeduserid) values (304, 181);
-insert into social.relationships (followeruserid, followeduserid) values (79, 315);
-insert into social.relationships (followeruserid, followeduserid) values (756, 489);
-insert into social.relationships (followeruserid, followeduserid) values (677, 89);
-insert into social.relationships (followeruserid, followeduserid) values (499, 809);
-insert into social.relationships (followeruserid, followeduserid) values (887, 811);
-insert into social.relationships (followeruserid, followeduserid) values (616, 124);
-insert into social.relationships (followeruserid, followeduserid) values (219, 522);
-insert into social.relationships (followeruserid, followeduserid) values (107, 759);
-insert into social.relationships (followeruserid, followeduserid) values (351, 609);
-insert into social.relationships (followeruserid, followeduserid) values (784, 943);
-insert into social.relationships (followeruserid, followeduserid) values (334, 757);
-insert into social.relationships (followeruserid, followeduserid) values (245, 928);
-insert into social.relationships (followeruserid, followeduserid) values (656, 439);
-insert into social.relationships (followeruserid, followeduserid) values (971, 739);
-insert into social.relationships (followeruserid, followeduserid) values (935, 127);
-insert into social.relationships (followeruserid, followeduserid) values (483, 293);
-insert into social.relationships (followeruserid, followeduserid) values (9, 254);
-insert into social.relationships (followeruserid, followeduserid) values (123, 436);
-insert into social.relationships (followeruserid, followeduserid) values (379, 638);
-insert into social.relationships (followeruserid, followeduserid) values (830, 6);
-insert into social.relationships (followeruserid, followeduserid) values (747, 605);
-insert into social.relationships (followeruserid, followeduserid) values (551, 682);
-insert into social.relationships (followeruserid, followeduserid) values (921, 307);
-insert into social.relationships (followeruserid, followeduserid) values (390, 580);
-insert into social.relationships (followeruserid, followeduserid) values (776, 29);
-insert into social.relationships (followeruserid, followeduserid) values (849, 386);
-insert into social.relationships (followeruserid, followeduserid) values (138, 884);
-insert into social.relationships (followeruserid, followeduserid) values (635, 206);
-insert into social.relationships (followeruserid, followeduserid) values (773, 38);
-insert into social.relationships (followeruserid, followeduserid) values (625, 925);
-insert into social.relationships (followeruserid, followeduserid) values (779, 181);
-insert into social.relationships (followeruserid, followeduserid) values (476, 552);
-insert into social.relationships (followeruserid, followeduserid) values (540, 210);
-insert into social.relationships (followeruserid, followeduserid) values (728, 356);
-insert into social.relationships (followeruserid, followeduserid) values (140, 487);
-insert into social.relationships (followeruserid, followeduserid) values (520, 873);
-insert into social.relationships (followeruserid, followeduserid) values (806, 916);
-insert into social.relationships (followeruserid, followeduserid) values (431, 18);
-insert into social.relationships (followeruserid, followeduserid) values (649, 94);
-insert into social.relationships (followeruserid, followeduserid) values (660, 886);
-insert into social.relationships (followeruserid, followeduserid) values (972, 2);
-insert into social.relationships (followeruserid, followeduserid) values (790, 310);
-insert into social.relationships (followeruserid, followeduserid) values (591, 163);
-insert into social.relationships (followeruserid, followeduserid) values (190, 788);
-insert into social.relationships (followeruserid, followeduserid) values (217, 317);
-insert into social.relationships (followeruserid, followeduserid) values (669, 899);
-insert into social.relationships (followeruserid, followeduserid) values (947, 864);
-insert into social.relationships (followeruserid, followeduserid) values (266, 728);
-insert into social.relationships (followeruserid, followeduserid) values (690, 788);
-insert into social.relationships (followeruserid, followeduserid) values (981, 132);
-insert into social.relationships (followeruserid, followeduserid) values (742, 145);
-insert into social.relationships (followeruserid, followeduserid) values (256, 501);
-insert into social.relationships (followeruserid, followeduserid) values (841, 890);
-insert into social.relationships (followeruserid, followeduserid) values (825, 161);
-insert into social.relationships (followeruserid, followeduserid) values (484, 87);
-insert into social.relationships (followeruserid, followeduserid) values (168, 911);
-insert into social.relationships (followeruserid, followeduserid) values (284, 29);
-insert into social.relationships (followeruserid, followeduserid) values (61, 410);
-insert into social.relationships (followeruserid, followeduserid) values (708, 218);
-insert into social.relationships (followeruserid, followeduserid) values (983, 175);
-insert into social.relationships (followeruserid, followeduserid) values (561, 820);
-insert into social.relationships (followeruserid, followeduserid) values (125, 409);
-insert into social.relationships (followeruserid, followeduserid) values (115, 231);
-insert into social.relationships (followeruserid, followeduserid) values (674, 685);
-insert into social.relationships (followeruserid, followeduserid) values (309, 157);
-insert into social.relationships (followeruserid, followeduserid) values (949, 964);
-insert into social.relationships (followeruserid, followeduserid) values (995, 396);
-insert into social.relationships (followeruserid, followeduserid) values (673, 259);
-insert into social.relationships (followeruserid, followeduserid) values (162, 609);
-insert into social.relationships (followeruserid, followeduserid) values (36, 542);
-insert into social.relationships (followeruserid, followeduserid) values (128, 598);
-insert into social.relationships (followeruserid, followeduserid) values (52, 28);
-insert into social.relationships (followeruserid, followeduserid) values (177, 569);
-insert into social.relationships (followeruserid, followeduserid) values (661, 698);
-insert into social.relationships (followeruserid, followeduserid) values (482, 307);
-insert into social.relationships (followeruserid, followeduserid) values (667, 290);
-insert into social.relationships (followeruserid, followeduserid) values (759, 461);
-insert into social.relationships (followeruserid, followeduserid) values (851, 559);
-insert into social.relationships (followeruserid, followeduserid) values (902, 980);
-insert into social.relationships (followeruserid, followeduserid) values (840, 422);
-insert into social.relationships (followeruserid, followeduserid) values (806, 223);
-insert into social.relationships (followeruserid, followeduserid) values (48, 925);
-insert into social.relationships (followeruserid, followeduserid) values (378, 385);
-insert into social.relationships (followeruserid, followeduserid) values (35, 984);
-insert into social.relationships (followeruserid, followeduserid) values (42, 602);
-insert into social.relationships (followeruserid, followeduserid) values (491, 559);
-insert into social.relationships (followeruserid, followeduserid) values (679, 860);
-insert into social.relationships (followeruserid, followeduserid) values (617, 70);
-insert into social.relationships (followeruserid, followeduserid) values (994, 393);
-insert into social.relationships (followeruserid, followeduserid) values (891, 554);
-insert into social.relationships (followeruserid, followeduserid) values (663, 457);
-insert into social.relationships (followeruserid, followeduserid) values (436, 992);
-insert into social.relationships (followeruserid, followeduserid) values (267, 682);
-insert into social.relationships (followeruserid, followeduserid) values (281, 46);
-insert into social.relationships (followeruserid, followeduserid) values (453, 458);
-insert into social.relationships (followeruserid, followeduserid) values (420, 824);
-insert into social.relationships (followeruserid, followeduserid) values (252, 131);
-insert into social.relationships (followeruserid, followeduserid) values (577, 652);
-insert into social.relationships (followeruserid, followeduserid) values (394, 155);
-insert into social.relationships (followeruserid, followeduserid) values (405, 447);
-insert into social.relationships (followeruserid, followeduserid) values (973, 264);
-insert into social.relationships (followeruserid, followeduserid) values (328, 61);
-insert into social.relationships (followeruserid, followeduserid) values (86, 574);
-insert into social.relationships (followeruserid, followeduserid) values (76, 816);
-insert into social.relationships (followeruserid, followeduserid) values (881, 520);
-insert into social.relationships (followeruserid, followeduserid) values (519, 99);
-insert into social.relationships (followeruserid, followeduserid) values (644, 29);
-insert into social.relationships (followeruserid, followeduserid) values (216, 740);
-insert into social.relationships (followeruserid, followeduserid) values (395, 26);
-insert into social.relationships (followeruserid, followeduserid) values (63, 946);
-insert into social.relationships (followeruserid, followeduserid) values (512, 976);
-insert into social.relationships (followeruserid, followeduserid) values (248, 500);
-insert into social.relationships (followeruserid, followeduserid) values (957, 954);
-insert into social.relationships (followeruserid, followeduserid) values (937, 344);
-insert into social.relationships (followeruserid, followeduserid) values (85, 215);
-insert into social.relationships (followeruserid, followeduserid) values (790, 695);
-insert into social.relationships (followeruserid, followeduserid) values (160, 600);
-insert into social.relationships (followeruserid, followeduserid) values (900, 957);
-insert into social.relationships (followeruserid, followeduserid) values (756, 375);
-insert into social.relationships (followeruserid, followeduserid) values (83, 749);
-insert into social.relationships (followeruserid, followeduserid) values (100, 741);
-insert into social.relationships (followeruserid, followeduserid) values (39, 54);
-insert into social.relationships (followeruserid, followeduserid) values (904, 533);
-insert into social.relationships (followeruserid, followeduserid) values (627, 694);
-insert into social.relationships (followeruserid, followeduserid) values (57, 629);
-insert into social.relationships (followeruserid, followeduserid) values (204, 387);
-insert into social.relationships (followeruserid, followeduserid) values (941, 873);
-insert into social.relationships (followeruserid, followeduserid) values (13, 314);
-insert into social.relationships (followeruserid, followeduserid) values (643, 307);
-insert into social.relationships (followeruserid, followeduserid) values (1, 193);
-insert into social.relationships (followeruserid, followeduserid) values (392, 389);
-insert into social.relationships (followeruserid, followeduserid) values (53, 648);
-insert into social.relationships (followeruserid, followeduserid) values (909, 527);
-insert into social.relationships (followeruserid, followeduserid) values (924, 476);
-insert into social.relationships (followeruserid, followeduserid) values (559, 431);
-insert into social.relationships (followeruserid, followeduserid) values (430, 324);
-insert into social.relationships (followeruserid, followeduserid) values (620, 805);
-insert into social.relationships (followeruserid, followeduserid) values (362, 462);
-insert into social.relationships (followeruserid, followeduserid) values (687, 276);
-insert into social.relationships (followeruserid, followeduserid) values (133, 820);
-insert into social.relationships (followeruserid, followeduserid) values (960, 825);
-insert into social.relationships (followeruserid, followeduserid) values (733, 571);
-insert into social.relationships (followeruserid, followeduserid) values (252, 34);
-insert into social.relationships (followeruserid, followeduserid) values (972, 983);
-insert into social.relationships (followeruserid, followeduserid) values (375, 394);
-insert into social.relationships (followeruserid, followeduserid) values (637, 574);
-insert into social.relationships (followeruserid, followeduserid) values (701, 19);
-insert into social.relationships (followeruserid, followeduserid) values (453, 413);
-insert into social.relationships (followeruserid, followeduserid) values (967, 788);
-insert into social.relationships (followeruserid, followeduserid) values (562, 756);
-insert into social.relationships (followeruserid, followeduserid) values (870, 245);
-insert into social.relationships (followeruserid, followeduserid) values (836, 983);
-insert into social.relationships (followeruserid, followeduserid) values (357, 520);
-insert into social.relationships (followeruserid, followeduserid) values (305, 493);
-insert into social.relationships (followeruserid, followeduserid) values (938, 899);
-insert into social.relationships (followeruserid, followeduserid) values (838, 625);
-insert into social.relationships (followeruserid, followeduserid) values (23, 145);
-insert into social.relationships (followeruserid, followeduserid) values (481, 984);
-insert into social.relationships (followeruserid, followeduserid) values (397, 667);
-insert into social.relationships (followeruserid, followeduserid) values (155, 714);
-insert into social.relationships (followeruserid, followeduserid) values (688, 71);
-insert into social.relationships (followeruserid, followeduserid) values (603, 538);
-insert into social.relationships (followeruserid, followeduserid) values (681, 735);
-insert into social.relationships (followeruserid, followeduserid) values (140, 98);
-insert into social.relationships (followeruserid, followeduserid) values (870, 539);
-insert into social.relationships (followeruserid, followeduserid) values (110, 335);
-insert into social.relationships (followeruserid, followeduserid) values (421, 656);
-insert into social.relationships (followeruserid, followeduserid) values (548, 521);
-insert into social.relationships (followeruserid, followeduserid) values (853, 643);
-insert into social.relationships (followeruserid, followeduserid) values (852, 157);
-insert into social.relationships (followeruserid, followeduserid) values (558, 679);
-insert into social.relationships (followeruserid, followeduserid) values (969, 554);
-insert into social.relationships (followeruserid, followeduserid) values (494, 253);
-insert into social.relationships (followeruserid, followeduserid) values (960, 165);
-insert into social.relationships (followeruserid, followeduserid) values (26, 833);
-insert into social.relationships (followeruserid, followeduserid) values (415, 756);
-insert into social.relationships (followeruserid, followeduserid) values (248, 505);
-insert into social.relationships (followeruserid, followeduserid) values (733, 411);
-insert into social.relationships (followeruserid, followeduserid) values (668, 264);
-insert into social.relationships (followeruserid, followeduserid) values (967, 65);
-insert into social.relationships (followeruserid, followeduserid) values (494, 951);
-insert into social.relationships (followeruserid, followeduserid) values (480, 304);
-insert into social.relationships (followeruserid, followeduserid) values (869, 840);
-insert into social.relationships (followeruserid, followeduserid) values (564, 557);
-insert into social.relationships (followeruserid, followeduserid) values (314, 68);
-insert into social.relationships (followeruserid, followeduserid) values (818, 657);
-insert into social.relationships (followeruserid, followeduserid) values (908, 111);
-insert into social.relationships (followeruserid, followeduserid) values (454, 883);
-insert into social.relationships (followeruserid, followeduserid) values (222, 961);
-insert into social.relationships (followeruserid, followeduserid) values (108, 743);
-insert into social.relationships (followeruserid, followeduserid) values (118, 538);
-insert into social.relationships (followeruserid, followeduserid) values (300, 947);
-insert into social.relationships (followeruserid, followeduserid) values (537, 845);
-insert into social.relationships (followeruserid, followeduserid) values (542, 563);
-insert into social.relationships (followeruserid, followeduserid) values (278, 873);
-insert into social.relationships (followeruserid, followeduserid) values (351, 793);
-insert into social.relationships (followeruserid, followeduserid) values (712, 518);
-insert into social.relationships (followeruserid, followeduserid) values (623, 619);
-insert into social.relationships (followeruserid, followeduserid) values (586, 398);
-insert into social.relationships (followeruserid, followeduserid) values (795, 421);
-insert into social.relationships (followeruserid, followeduserid) values (17, 39);
-insert into social.relationships (followeruserid, followeduserid) values (425, 454);
-insert into social.relationships (followeruserid, followeduserid) values (327, 27);
-insert into social.relationships (followeruserid, followeduserid) values (666, 661);
-insert into social.relationships (followeruserid, followeduserid) values (375, 557);
-insert into social.relationships (followeruserid, followeduserid) values (854, 438);
-insert into social.relationships (followeruserid, followeduserid) values (950, 892);
-insert into social.relationships (followeruserid, followeduserid) values (934, 830);
-insert into social.relationships (followeruserid, followeduserid) values (312, 119);
-insert into social.relationships (followeruserid, followeduserid) values (570, 83);
-insert into social.relationships (followeruserid, followeduserid) values (687, 110);
-insert into social.relationships (followeruserid, followeduserid) values (768, 816);
-insert into social.relationships (followeruserid, followeduserid) values (56, 134);
-insert into social.relationships (followeruserid, followeduserid) values (378, 781);
-insert into social.relationships (followeruserid, followeduserid) values (841, 4);
-insert into social.relationships (followeruserid, followeduserid) values (48, 690);
-insert into social.relationships (followeruserid, followeduserid) values (875, 940);
-insert into social.relationships (followeruserid, followeduserid) values (500, 408);
-insert into social.relationships (followeruserid, followeduserid) values (433, 371);
-insert into social.relationships (followeruserid, followeduserid) values (785, 263);
-insert into social.relationships (followeruserid, followeduserid) values (991, 36);
-insert into social.relationships (followeruserid, followeduserid) values (673, 796);
-insert into social.relationships (followeruserid, followeduserid) values (245, 476);
-insert into social.relationships (followeruserid, followeduserid) values (698, 161);
-insert into social.relationships (followeruserid, followeduserid) values (108, 35);
-insert into social.relationships (followeruserid, followeduserid) values (908, 88);
-insert into social.relationships (followeruserid, followeduserid) values (67, 235);
-insert into social.relationships (followeruserid, followeduserid) values (811, 588);
-insert into social.relationships (followeruserid, followeduserid) values (614, 309);
-insert into social.relationships (followeruserid, followeduserid) values (159, 886);
-insert into social.relationships (followeruserid, followeduserid) values (591, 221);
-insert into social.relationships (followeruserid, followeduserid) values (795, 906);
-insert into social.relationships (followeruserid, followeduserid) values (730, 921);
-insert into social.relationships (followeruserid, followeduserid) values (398, 797);
-insert into social.relationships (followeruserid, followeduserid) values (862, 567);
-insert into social.relationships (followeruserid, followeduserid) values (878, 343);
-insert into social.relationships (followeruserid, followeduserid) values (313, 586);
-insert into social.relationships (followeruserid, followeduserid) values (390, 923);
-insert into social.relationships (followeruserid, followeduserid) values (565, 952);
-insert into social.relationships (followeruserid, followeduserid) values (74, 995);
-insert into social.relationships (followeruserid, followeduserid) values (265, 785);
-insert into social.relationships (followeruserid, followeduserid) values (362, 991);
-insert into social.relationships (followeruserid, followeduserid) values (540, 770);
-insert into social.relationships (followeruserid, followeduserid) values (877, 218);
-insert into social.relationships (followeruserid, followeduserid) values (994, 160);
-insert into social.relationships (followeruserid, followeduserid) values (517, 519);
-insert into social.relationships (followeruserid, followeduserid) values (642, 826);
-insert into social.relationships (followeruserid, followeduserid) values (699, 48);
-insert into social.relationships (followeruserid, followeduserid) values (563, 575);
-insert into social.relationships (followeruserid, followeduserid) values (840, 5);
-insert into social.relationships (followeruserid, followeduserid) values (65, 943);
-insert into social.relationships (followeruserid, followeduserid) values (585, 93);
-insert into social.relationships (followeruserid, followeduserid) values (786, 44);
-insert into social.relationships (followeruserid, followeduserid) values (63, 677);
-insert into social.relationships (followeruserid, followeduserid) values (638, 74);
-insert into social.relationships (followeruserid, followeduserid) values (901, 708);
-insert into social.relationships (followeruserid, followeduserid) values (497, 542);
-insert into social.relationships (followeruserid, followeduserid) values (532, 422);
-insert into social.relationships (followeruserid, followeduserid) values (308, 462);
-insert into social.relationships (followeruserid, followeduserid) values (809, 531);
-insert into social.relationships (followeruserid, followeduserid) values (461, 412);
-insert into social.relationships (followeruserid, followeduserid) values (630, 715);
-insert into social.relationships (followeruserid, followeduserid) values (437, 307);
-insert into social.relationships (followeruserid, followeduserid) values (472, 545);
-insert into social.relationships (followeruserid, followeduserid) values (79, 502);
-insert into social.relationships (followeruserid, followeduserid) values (494, 771);
-insert into social.relationships (followeruserid, followeduserid) values (132, 263);
-insert into social.relationships (followeruserid, followeduserid) values (49, 485);
-insert into social.relationships (followeruserid, followeduserid) values (654, 991);
-insert into social.relationships (followeruserid, followeduserid) values (69, 338);
-insert into social.relationships (followeruserid, followeduserid) values (435, 920);
-insert into social.relationships (followeruserid, followeduserid) values (874, 758);
-insert into social.relationships (followeruserid, followeduserid) values (562, 734);
-insert into social.relationships (followeruserid, followeduserid) values (435, 2);
-insert into social.relationships (followeruserid, followeduserid) values (300, 481);
-insert into social.relationships (followeruserid, followeduserid) values (975, 342);
-insert into social.relationships (followeruserid, followeduserid) values (944, 98);
-insert into social.relationships (followeruserid, followeduserid) values (951, 653);
-insert into social.relationships (followeruserid, followeduserid) values (853, 157);
-insert into social.relationships (followeruserid, followeduserid) values (340, 605);
-insert into social.relationships (followeruserid, followeduserid) values (886, 171);
-insert into social.relationships (followeruserid, followeduserid) values (557, 575);
-insert into social.relationships (followeruserid, followeduserid) values (388, 975);
-insert into social.relationships (followeruserid, followeduserid) values (407, 320);
-insert into social.relationships (followeruserid, followeduserid) values (49, 221);
-insert into social.relationships (followeruserid, followeduserid) values (791, 483);
-insert into social.relationships (followeruserid, followeduserid) values (707, 887);
-insert into social.relationships (followeruserid, followeduserid) values (445, 280);
-insert into social.relationships (followeruserid, followeduserid) values (17, 903);
-insert into social.relationships (followeruserid, followeduserid) values (787, 726);
-insert into social.relationships (followeruserid, followeduserid) values (866, 277);
-insert into social.relationships (followeruserid, followeduserid) values (914, 145);
-insert into social.relationships (followeruserid, followeduserid) values (605, 584);
-insert into social.relationships (followeruserid, followeduserid) values (144, 820);
-insert into social.relationships (followeruserid, followeduserid) values (494, 831);
-insert into social.relationships (followeruserid, followeduserid) values (708, 431);
-insert into social.relationships (followeruserid, followeduserid) values (27, 502);
-insert into social.relationships (followeruserid, followeduserid) values (482, 927);
-insert into social.relationships (followeruserid, followeduserid) values (209, 761);
-insert into social.relationships (followeruserid, followeduserid) values (256, 276);
-insert into social.relationships (followeruserid, followeduserid) values (771, 398);
-insert into social.relationships (followeruserid, followeduserid) values (45, 929);
-insert into social.relationships (followeruserid, followeduserid) values (464, 821);
-insert into social.relationships (followeruserid, followeduserid) values (538, 710);
-insert into social.relationships (followeruserid, followeduserid) values (283, 542);
-insert into social.relationships (followeruserid, followeduserid) values (148, 569);
-insert into social.relationships (followeruserid, followeduserid) values (43, 536);
-insert into social.relationships (followeruserid, followeduserid) values (69, 106);
-insert into social.relationships (followeruserid, followeduserid) values (641, 73);
-insert into social.relationships (followeruserid, followeduserid) values (635, 238);
-insert into social.relationships (followeruserid, followeduserid) values (115, 571);
-insert into social.relationships (followeruserid, followeduserid) values (75, 358);
-insert into social.relationships (followeruserid, followeduserid) values (981, 818);
-insert into social.relationships (followeruserid, followeduserid) values (636, 392);
-insert into social.relationships (followeruserid, followeduserid) values (630, 545);
-insert into social.relationships (followeruserid, followeduserid) values (371, 920);
-insert into social.relationships (followeruserid, followeduserid) values (521, 238);
-insert into social.relationships (followeruserid, followeduserid) values (2, 795);
-insert into social.relationships (followeruserid, followeduserid) values (992, 629);
-insert into social.relationships (followeruserid, followeduserid) values (43, 609);
-insert into social.relationships (followeruserid, followeduserid) values (837, 530);
-insert into social.relationships (followeruserid, followeduserid) values (966, 410);
-insert into social.relationships (followeruserid, followeduserid) values (675, 850);
-insert into social.relationships (followeruserid, followeduserid) values (83, 796);
-insert into social.relationships (followeruserid, followeduserid) values (531, 99);
-insert into social.relationships (followeruserid, followeduserid) values (707, 666);
-insert into social.relationships (followeruserid, followeduserid) values (386, 594);
-insert into social.relationships (followeruserid, followeduserid) values (555, 469);
-insert into social.relationships (followeruserid, followeduserid) values (861, 915);
-insert into social.relationships (followeruserid, followeduserid) values (120, 797);
-insert into social.relationships (followeruserid, followeduserid) values (115, 838);
-insert into social.relationships (followeruserid, followeduserid) values (735, 680);
-insert into social.relationships (followeruserid, followeduserid) values (400, 209);
-insert into social.relationships (followeruserid, followeduserid) values (394, 171);
-insert into social.relationships (followeruserid, followeduserid) values (689, 268);
-insert into social.relationships (followeruserid, followeduserid) values (189, 357);
-insert into social.relationships (followeruserid, followeduserid) values (315, 123);
-insert into social.relationships (followeruserid, followeduserid) values (892, 66);
-insert into social.relationships (followeruserid, followeduserid) values (126, 846);
-insert into social.relationships (followeruserid, followeduserid) values (915, 954);
-insert into social.relationships (followeruserid, followeduserid) values (78, 102);
-insert into social.relationships (followeruserid, followeduserid) values (421, 797);
-insert into social.relationships (followeruserid, followeduserid) values (947, 116);
-insert into social.relationships (followeruserid, followeduserid) values (87, 300);
-insert into social.relationships (followeruserid, followeduserid) values (422, 545);
-insert into social.relationships (followeruserid, followeduserid) values (250, 268);
-insert into social.relationships (followeruserid, followeduserid) values (472, 913);
-insert into social.relationships (followeruserid, followeduserid) values (305, 833);
-insert into social.relationships (followeruserid, followeduserid) values (157, 775);
-insert into social.relationships (followeruserid, followeduserid) values (294, 914);
-insert into social.relationships (followeruserid, followeduserid) values (28, 549);
-insert into social.relationships (followeruserid, followeduserid) values (757, 80);
-insert into social.relationships (followeruserid, followeduserid) values (766, 375);
-insert into social.relationships (followeruserid, followeduserid) values (818, 486);
-insert into social.relationships (followeruserid, followeduserid) values (637, 879);
-insert into social.relationships (followeruserid, followeduserid) values (61, 978);
-insert into social.relationships (followeruserid, followeduserid) values (200, 424);
-insert into social.relationships (followeruserid, followeduserid) values (379, 83);
-insert into social.relationships (followeruserid, followeduserid) values (187, 273);
-insert into social.relationships (followeruserid, followeduserid) values (487, 552);
-insert into social.relationships (followeruserid, followeduserid) values (658, 332);
-insert into social.relationships (followeruserid, followeduserid) values (10, 113);
-insert into social.relationships (followeruserid, followeduserid) values (946, 925);
-insert into social.relationships (followeruserid, followeduserid) values (334, 515);
-insert into social.relationships (followeruserid, followeduserid) values (48, 504);
-insert into social.relationships (followeruserid, followeduserid) values (920, 360);
-insert into social.relationships (followeruserid, followeduserid) values (637, 183);
-insert into social.relationships (followeruserid, followeduserid) values (492, 209);
-insert into social.relationships (followeruserid, followeduserid) values (497, 525);
-insert into social.relationships (followeruserid, followeduserid) values (500, 957);
-insert into social.relationships (followeruserid, followeduserid) values (242, 833);
-insert into social.relationships (followeruserid, followeduserid) values (764, 723);
-insert into social.relationships (followeruserid, followeduserid) values (473, 32);
-insert into social.relationships (followeruserid, followeduserid) values (164, 335);
-insert into social.relationships (followeruserid, followeduserid) values (835, 420);
-insert into social.relationships (followeruserid, followeduserid) values (15, 367);
-insert into social.relationships (followeruserid, followeduserid) values (108, 614);
-insert into social.relationships (followeruserid, followeduserid) values (884, 838);
-insert into social.relationships (followeruserid, followeduserid) values (969, 749);
-insert into social.relationships (followeruserid, followeduserid) values (931, 140);
-insert into social.relationships (followeruserid, followeduserid) values (108, 908);
-insert into social.relationships (followeruserid, followeduserid) values (234, 749);
-insert into social.relationships (followeruserid, followeduserid) values (260, 84);
-insert into social.relationships (followeruserid, followeduserid) values (439, 468);
-insert into social.relationships (followeruserid, followeduserid) values (965, 462);
-insert into social.relationships (followeruserid, followeduserid) values (685, 590);
-insert into social.relationships (followeruserid, followeduserid) values (216, 427);
-insert into social.relationships (followeruserid, followeduserid) values (319, 459);
-insert into social.relationships (followeruserid, followeduserid) values (640, 597);
-insert into social.relationships (followeruserid, followeduserid) values (700, 55);
-insert into social.relationships (followeruserid, followeduserid) values (619, 801);
-insert into social.relationships (followeruserid, followeduserid) values (353, 250);
-insert into social.relationships (followeruserid, followeduserid) values (53, 978);
-insert into social.relationships (followeruserid, followeduserid) values (703, 329);
-insert into social.relationships (followeruserid, followeduserid) values (872, 177);
-insert into social.relationships (followeruserid, followeduserid) values (748, 938);
-insert into social.relationships (followeruserid, followeduserid) values (665, 769);
-insert into social.relationships (followeruserid, followeduserid) values (789, 586);
-insert into social.relationships (followeruserid, followeduserid) values (841, 236);
-insert into social.relationships (followeruserid, followeduserid) values (308, 448);
-insert into social.relationships (followeruserid, followeduserid) values (411, 616);
-insert into social.relationships (followeruserid, followeduserid) values (478, 227);
-insert into social.relationships (followeruserid, followeduserid) values (986, 865);
-insert into social.relationships (followeruserid, followeduserid) values (215, 925);
-insert into social.relationships (followeruserid, followeduserid) values (394, 189);
-insert into social.relationships (followeruserid, followeduserid) values (330, 918);
-insert into social.relationships (followeruserid, followeduserid) values (172, 722);
-insert into social.relationships (followeruserid, followeduserid) values (64, 924);
-insert into social.relationships (followeruserid, followeduserid) values (505, 521);
-insert into social.relationships (followeruserid, followeduserid) values (812, 134);
-insert into social.relationships (followeruserid, followeduserid) values (438, 188);
-insert into social.relationships (followeruserid, followeduserid) values (242, 168);
-insert into social.relationships (followeruserid, followeduserid) values (500, 251);
-insert into social.relationships (followeruserid, followeduserid) values (812, 221);
-insert into social.relationships (followeruserid, followeduserid) values (948, 341);
-insert into social.relationships (followeruserid, followeduserid) values (631, 366);
-insert into social.relationships (followeruserid, followeduserid) values (728, 855);
-insert into social.relationships (followeruserid, followeduserid) values (775, 811);
-insert into social.relationships (followeruserid, followeduserid) values (625, 222);
-insert into social.relationships (followeruserid, followeduserid) values (641, 687);
-insert into social.relationships (followeruserid, followeduserid) values (214, 229);
-insert into social.relationships (followeruserid, followeduserid) values (107, 55);
-insert into social.relationships (followeruserid, followeduserid) values (759, 65);
-insert into social.relationships (followeruserid, followeduserid) values (580, 833);
-insert into social.relationships (followeruserid, followeduserid) values (584, 690);
-insert into social.relationships (followeruserid, followeduserid) values (420, 256);
-insert into social.relationships (followeruserid, followeduserid) values (322, 224);
-insert into social.relationships (followeruserid, followeduserid) values (381, 535);
-insert into social.relationships (followeruserid, followeduserid) values (989, 280);
-insert into social.relationships (followeruserid, followeduserid) values (832, 544);
-insert into social.relationships (followeruserid, followeduserid) values (577, 781);
-insert into social.relationships (followeruserid, followeduserid) values (647, 885);
-insert into social.relationships (followeruserid, followeduserid) values (145, 409);
-insert into social.relationships (followeruserid, followeduserid) values (947, 812);
-insert into social.relationships (followeruserid, followeduserid) values (138, 663);
-insert into social.relationships (followeruserid, followeduserid) values (252, 902);
-insert into social.relationships (followeruserid, followeduserid) values (796, 243);
-insert into social.relationships (followeruserid, followeduserid) values (676, 914);
-insert into social.relationships (followeruserid, followeduserid) values (218, 284);
-insert into social.relationships (followeruserid, followeduserid) values (20, 168);
-insert into social.relationships (followeruserid, followeduserid) values (465, 691);
-insert into social.relationships (followeruserid, followeduserid) values (259, 707);
-insert into social.relationships (followeruserid, followeduserid) values (88, 819);
-insert into social.relationships (followeruserid, followeduserid) values (830, 169);
-insert into social.relationships (followeruserid, followeduserid) values (936, 814);
-insert into social.relationships (followeruserid, followeduserid) values (814, 257);
-insert into social.relationships (followeruserid, followeduserid) values (259, 183);
-insert into social.relationships (followeruserid, followeduserid) values (555, 83);
-insert into social.relationships (followeruserid, followeduserid) values (157, 455);
-insert into social.relationships (followeruserid, followeduserid) values (542, 251);
-insert into social.relationships (followeruserid, followeduserid) values (694, 972);
-insert into social.relationships (followeruserid, followeduserid) values (762, 933);
-insert into social.relationships (followeruserid, followeduserid) values (285, 503);
-insert into social.relationships (followeruserid, followeduserid) values (981, 607);
-insert into social.relationships (followeruserid, followeduserid) values (871, 214);
-insert into social.relationships (followeruserid, followeduserid) values (684, 574);
-insert into social.relationships (followeruserid, followeduserid) values (490, 181);
-insert into social.relationships (followeruserid, followeduserid) values (362, 948);
-insert into social.relationships (followeruserid, followeduserid) values (604, 443);
-insert into social.relationships (followeruserid, followeduserid) values (383, 952);
-insert into social.relationships (followeruserid, followeduserid) values (500, 171);
-insert into social.relationships (followeruserid, followeduserid) values (361, 46);
-insert into social.relationships (followeruserid, followeduserid) values (396, 883);
-insert into social.relationships (followeruserid, followeduserid) values (442, 291);
-insert into social.relationships (followeruserid, followeduserid) values (517, 163);
-insert into social.relationships (followeruserid, followeduserid) values (431, 578);
-insert into social.relationships (followeruserid, followeduserid) values (807, 430);
-insert into social.relationships (followeruserid, followeduserid) values (135, 248);
-insert into social.relationships (followeruserid, followeduserid) values (966, 542);
-insert into social.relationships (followeruserid, followeduserid) values (147, 426);
-insert into social.relationships (followeruserid, followeduserid) values (871, 251);
-insert into social.relationships (followeruserid, followeduserid) values (378, 598);
-insert into social.relationships (followeruserid, followeduserid) values (506, 958);
-insert into social.relationships (followeruserid, followeduserid) values (13, 428);
-insert into social.relationships (followeruserid, followeduserid) values (784, 107);
-insert into social.relationships (followeruserid, followeduserid) values (460, 155);
-insert into social.relationships (followeruserid, followeduserid) values (11, 503);
-insert into social.relationships (followeruserid, followeduserid) values (946, 712);
-insert into social.relationships (followeruserid, followeduserid) values (580, 721);
-insert into social.relationships (followeruserid, followeduserid) values (147, 437);
-insert into social.relationships (followeruserid, followeduserid) values (914, 463);
-insert into social.relationships (followeruserid, followeduserid) values (796, 126);
-insert into social.relationships (followeruserid, followeduserid) values (956, 178);
-insert into social.relationships (followeruserid, followeduserid) values (200, 123);
-insert into social.relationships (followeruserid, followeduserid) values (725, 740);
-insert into social.relationships (followeruserid, followeduserid) values (72, 732);
-insert into social.relationships (followeruserid, followeduserid) values (164, 197);
-insert into social.relationships (followeruserid, followeduserid) values (602, 102);
-insert into social.relationships (followeruserid, followeduserid) values (617, 704);
-insert into social.relationships (followeruserid, followeduserid) values (491, 411);
-insert into social.relationships (followeruserid, followeduserid) values (897, 166);
-insert into social.relationships (followeruserid, followeduserid) values (321, 306);
-insert into social.relationships (followeruserid, followeduserid) values (23, 245);
-insert into social.relationships (followeruserid, followeduserid) values (847, 653);
-insert into social.relationships (followeruserid, followeduserid) values (842, 247);
-insert into social.relationships (followeruserid, followeduserid) values (151, 907);
-insert into social.relationships (followeruserid, followeduserid) values (157, 428);
-insert into social.relationships (followeruserid, followeduserid) values (633, 806);
-insert into social.relationships (followeruserid, followeduserid) values (624, 727);
-insert into social.relationships (followeruserid, followeduserid) values (726, 922);
-insert into social.relationships (followeruserid, followeduserid) values (143, 204);
-insert into social.relationships (followeruserid, followeduserid) values (22, 264);
-insert into social.relationships (followeruserid, followeduserid) values (367, 914);
-insert into social.relationships (followeruserid, followeduserid) values (43, 318);
-insert into social.relationships (followeruserid, followeduserid) values (970, 355);
-insert into social.relationships (followeruserid, followeduserid) values (385, 7);
-insert into social.relationships (followeruserid, followeduserid) values (206, 875);
-insert into social.relationships (followeruserid, followeduserid) values (386, 634);
-insert into social.relationships (followeruserid, followeduserid) values (246, 173);
-insert into social.relationships (followeruserid, followeduserid) values (387, 910);
-insert into social.relationships (followeruserid, followeduserid) values (184, 514);
-insert into social.relationships (followeruserid, followeduserid) values (649, 883);
-insert into social.relationships (followeruserid, followeduserid) values (353, 334);
-insert into social.relationships (followeruserid, followeduserid) values (621, 20);
-insert into social.relationships (followeruserid, followeduserid) values (879, 714);
-insert into social.relationships (followeruserid, followeduserid) values (816, 668);
-insert into social.relationships (followeruserid, followeduserid) values (439, 256);
-insert into social.relationships (followeruserid, followeduserid) values (135, 721);
-insert into social.relationships (followeruserid, followeduserid) values (67, 577);
-insert into social.relationships (followeruserid, followeduserid) values (557, 646);
-insert into social.relationships (followeruserid, followeduserid) values (817, 183);
-insert into social.relationships (followeruserid, followeduserid) values (578, 90);
-insert into social.relationships (followeruserid, followeduserid) values (614, 439);
-insert into social.relationships (followeruserid, followeduserid) values (467, 599);
-insert into social.relationships (followeruserid, followeduserid) values (364, 806);
-insert into social.relationships (followeruserid, followeduserid) values (439, 934);
-insert into social.relationships (followeruserid, followeduserid) values (259, 796);
-insert into social.relationships (followeruserid, followeduserid) values (262, 495);
-insert into social.relationships (followeruserid, followeduserid) values (316, 288);
-insert into social.relationships (followeruserid, followeduserid) values (455, 890);
-insert into social.relationships (followeruserid, followeduserid) values (230, 392);
-insert into social.relationships (followeruserid, followeduserid) values (680, 891);
-insert into social.relationships (followeruserid, followeduserid) values (611, 182);
-insert into social.relationships (followeruserid, followeduserid) values (540, 602);
-insert into social.relationships (followeruserid, followeduserid) values (754, 627);
-insert into social.relationships (followeruserid, followeduserid) values (651, 106);
-insert into social.relationships (followeruserid, followeduserid) values (716, 491);
-insert into social.relationships (followeruserid, followeduserid) values (977, 412);
-insert into social.relationships (followeruserid, followeduserid) values (673, 840);
-insert into social.relationships (followeruserid, followeduserid) values (940, 210);
-insert into social.relationships (followeruserid, followeduserid) values (418, 971);
-insert into social.relationships (followeruserid, followeduserid) values (696, 772);
-insert into social.relationships (followeruserid, followeduserid) values (77, 251);
-insert into social.relationships (followeruserid, followeduserid) values (373, 150);
-insert into social.relationships (followeruserid, followeduserid) values (693, 67);
-insert into social.relationships (followeruserid, followeduserid) values (712, 331);
-insert into social.relationships (followeruserid, followeduserid) values (591, 466);
-insert into social.relationships (followeruserid, followeduserid) values (751, 123);
-insert into social.relationships (followeruserid, followeduserid) values (627, 58);
-insert into social.relationships (followeruserid, followeduserid) values (1000, 682);
-insert into social.relationships (followeruserid, followeduserid) values (297, 171);
-insert into social.relationships (followeruserid, followeduserid) values (796, 800);
-insert into social.relationships (followeruserid, followeduserid) values (32, 73);
-insert into social.relationships (followeruserid, followeduserid) values (886, 567);
-insert into social.relationships (followeruserid, followeduserid) values (410, 673);
-insert into social.relationships (followeruserid, followeduserid) values (266, 822);
-insert into social.relationships (followeruserid, followeduserid) values (274, 836);
-insert into social.relationships (followeruserid, followeduserid) values (711, 197);
-insert into social.relationships (followeruserid, followeduserid) values (479, 614);
-insert into social.relationships (followeruserid, followeduserid) values (464, 154);
-insert into social.relationships (followeruserid, followeduserid) values (693, 672);
-insert into social.relationships (followeruserid, followeduserid) values (754, 904);
-insert into social.relationships (followeruserid, followeduserid) values (15, 991);
-insert into social.relationships (followeruserid, followeduserid) values (312, 52);
-insert into social.relationships (followeruserid, followeduserid) values (3, 239);
-insert into social.relationships (followeruserid, followeduserid) values (398, 690);
-insert into social.relationships (followeruserid, followeduserid) values (390, 941);
-insert into social.relationships (followeruserid, followeduserid) values (390, 887);
-insert into social.relationships (followeruserid, followeduserid) values (567, 360);
-insert into social.relationships (followeruserid, followeduserid) values (873, 202);
-insert into social.relationships (followeruserid, followeduserid) values (621, 964);
-insert into social.relationships (followeruserid, followeduserid) values (437, 489);
-insert into social.relationships (followeruserid, followeduserid) values (603, 387);
-insert into social.relationships (followeruserid, followeduserid) values (32, 792);
-insert into social.relationships (followeruserid, followeduserid) values (528, 825);
-insert into social.relationships (followeruserid, followeduserid) values (289, 712);
-insert into social.relationships (followeruserid, followeduserid) values (820, 220);
-insert into social.relationships (followeruserid, followeduserid) values (291, 377);
-insert into social.relationships (followeruserid, followeduserid) values (243, 327);
-insert into social.relationships (followeruserid, followeduserid) values (137, 820);
-insert into social.relationships (followeruserid, followeduserid) values (169, 399);
-insert into social.relationships (followeruserid, followeduserid) values (150, 204);
-insert into social.relationships (followeruserid, followeduserid) values (558, 514);
-insert into social.relationships (followeruserid, followeduserid) values (718, 867);
-insert into social.relationships (followeruserid, followeduserid) values (217, 626);
-insert into social.relationships (followeruserid, followeduserid) values (826, 431);
-insert into social.relationships (followeruserid, followeduserid) values (82, 298);
-insert into social.relationships (followeruserid, followeduserid) values (311, 689);
-insert into social.relationships (followeruserid, followeduserid) values (639, 833);
-insert into social.relationships (followeruserid, followeduserid) values (122, 560);
-insert into social.relationships (followeruserid, followeduserid) values (547, 328);
-insert into social.relationships (followeruserid, followeduserid) values (162, 226);
-insert into social.relationships (followeruserid, followeduserid) values (459, 498);
-insert into social.relationships (followeruserid, followeduserid) values (540, 899);
-insert into social.relationships (followeruserid, followeduserid) values (940, 476);
-insert into social.relationships (followeruserid, followeduserid) values (331, 813);
-insert into social.relationships (followeruserid, followeduserid) values (338, 570);
-insert into social.relationships (followeruserid, followeduserid) values (160, 915);
-insert into social.relationships (followeruserid, followeduserid) values (644, 773);
-insert into social.relationships (followeruserid, followeduserid) values (311, 247);
-insert into social.relationships (followeruserid, followeduserid) values (672, 626);
-insert into social.relationships (followeruserid, followeduserid) values (85, 767);
-insert into social.relationships (followeruserid, followeduserid) values (898, 545);
-insert into social.relationships (followeruserid, followeduserid) values (720, 48);
-insert into social.relationships (followeruserid, followeduserid) values (353, 794);
-insert into social.relationships (followeruserid, followeduserid) values (738, 679);
-insert into social.relationships (followeruserid, followeduserid) values (866, 21);
-insert into social.relationships (followeruserid, followeduserid) values (723, 787);
-insert into social.relationships (followeruserid, followeduserid) values (931, 396);
-insert into social.relationships (followeruserid, followeduserid) values (359, 573);
-insert into social.relationships (followeruserid, followeduserid) values (809, 918);
-insert into social.relationships (followeruserid, followeduserid) values (870, 627);
-insert into social.relationships (followeruserid, followeduserid) values (856, 442);
-insert into social.relationships (followeruserid, followeduserid) values (699, 795);
-insert into social.relationships (followeruserid, followeduserid) values (167, 701);
-insert into social.relationships (followeruserid, followeduserid) values (781, 563);
-insert into social.relationships (followeruserid, followeduserid) values (202, 919);
-insert into social.relationships (followeruserid, followeduserid) values (738, 692);
-insert into social.relationships (followeruserid, followeduserid) values (169, 502);
-insert into social.relationships (followeruserid, followeduserid) values (602, 246);
-insert into social.relationships (followeruserid, followeduserid) values (747, 714);
-insert into social.relationships (followeruserid, followeduserid) values (387, 649);
-insert into social.relationships (followeruserid, followeduserid) values (936, 112);
-insert into social.relationships (followeruserid, followeduserid) values (1, 99);
-insert into social.relationships (followeruserid, followeduserid) values (583, 564);
-insert into social.relationships (followeruserid, followeduserid) values (715, 45);
-insert into social.relationships (followeruserid, followeduserid) values (697, 338);
-insert into social.relationships (followeruserid, followeduserid) values (752, 100);
-insert into social.relationships (followeruserid, followeduserid) values (61, 403);
-insert into social.relationships (followeruserid, followeduserid) values (229, 438);
-insert into social.relationships (followeruserid, followeduserid) values (663, 812);
-insert into social.relationships (followeruserid, followeduserid) values (104, 175);
-insert into social.relationships (followeruserid, followeduserid) values (603, 344);
-insert into social.relationships (followeruserid, followeduserid) values (180, 198);
-insert into social.relationships (followeruserid, followeduserid) values (929, 527);
-insert into social.relationships (followeruserid, followeduserid) values (848, 908);
-insert into social.relationships (followeruserid, followeduserid) values (102, 770);
-insert into social.relationships (followeruserid, followeduserid) values (480, 1000);
-insert into social.relationships (followeruserid, followeduserid) values (421, 814);
-insert into social.relationships (followeruserid, followeduserid) values (990, 856);
-insert into social.relationships (followeruserid, followeduserid) values (990, 523);
-insert into social.relationships (followeruserid, followeduserid) values (358, 885);
-insert into social.relationships (followeruserid, followeduserid) values (167, 147);
-insert into social.relationships (followeruserid, followeduserid) values (693, 999);
-insert into social.relationships (followeruserid, followeduserid) values (836, 790);
-insert into social.relationships (followeruserid, followeduserid) values (824, 277);
-insert into social.relationships (followeruserid, followeduserid) values (615, 88);
-insert into social.relationships (followeruserid, followeduserid) values (970, 834);
-insert into social.relationships (followeruserid, followeduserid) values (388, 189);
-insert into social.relationships (followeruserid, followeduserid) values (429, 644);
-insert into social.relationships (followeruserid, followeduserid) values (342, 287);
-insert into social.relationships (followeruserid, followeduserid) values (152, 546);
-insert into social.relationships (followeruserid, followeduserid) values (736, 116);
-insert into social.relationships (followeruserid, followeduserid) values (251, 856);
-insert into social.relationships (followeruserid, followeduserid) values (212, 805);
-insert into social.relationships (followeruserid, followeduserid) values (697, 613);
-insert into social.relationships (followeruserid, followeduserid) values (322, 283);
-insert into social.relationships (followeruserid, followeduserid) values (130, 702);
-insert into social.relationships (followeruserid, followeduserid) values (939, 380);
-insert into social.relationships (followeruserid, followeduserid) values (215, 88);
-insert into social.relationships (followeruserid, followeduserid) values (574, 436);
-insert into social.relationships (followeruserid, followeduserid) values (245, 577);
-insert into social.relationships (followeruserid, followeduserid) values (757, 924);
-insert into social.relationships (followeruserid, followeduserid) values (277, 401);
-insert into social.relationships (followeruserid, followeduserid) values (552, 17);
-insert into social.relationships (followeruserid, followeduserid) values (368, 595);
-insert into social.relationships (followeruserid, followeduserid) values (608, 786);
-insert into social.relationships (followeruserid, followeduserid) values (936, 156);
-insert into social.relationships (followeruserid, followeduserid) values (41, 945);
-insert into social.relationships (followeruserid, followeduserid) values (182, 715);
-insert into social.relationships (followeruserid, followeduserid) values (92, 223);
-insert into social.relationships (followeruserid, followeduserid) values (446, 293);
-insert into social.relationships (followeruserid, followeduserid) values (480, 502);
-insert into social.relationships (followeruserid, followeduserid) values (812, 607);
-insert into social.relationships (followeruserid, followeduserid) values (686, 240);
-insert into social.relationships (followeruserid, followeduserid) values (523, 55);
-insert into social.relationships (followeruserid, followeduserid) values (421, 68);
-insert into social.relationships (followeruserid, followeduserid) values (765, 482);
-insert into social.relationships (followeruserid, followeduserid) values (652, 406);
-insert into social.relationships (followeruserid, followeduserid) values (569, 71);
-insert into social.relationships (followeruserid, followeduserid) values (881, 297);
-insert into social.relationships (followeruserid, followeduserid) values (950, 666);
-insert into social.relationships (followeruserid, followeduserid) values (624, 623);
-insert into social.relationships (followeruserid, followeduserid) values (318, 524);
-insert into social.relationships (followeruserid, followeduserid) values (183, 474);
-insert into social.relationships (followeruserid, followeduserid) values (354, 574);
-insert into social.relationships (followeruserid, followeduserid) values (375, 104);
-insert into social.relationships (followeruserid, followeduserid) values (175, 252);
-insert into social.relationships (followeruserid, followeduserid) values (273, 269);
-insert into social.relationships (followeruserid, followeduserid) values (215, 791);
-insert into social.relationships (followeruserid, followeduserid) values (936, 271);
-insert into social.relationships (followeruserid, followeduserid) values (158, 299);
-insert into social.relationships (followeruserid, followeduserid) values (359, 642);
-insert into social.relationships (followeruserid, followeduserid) values (636, 267);
-insert into social.relationships (followeruserid, followeduserid) values (613, 256);
-insert into social.relationships (followeruserid, followeduserid) values (656, 690);
-insert into social.relationships (followeruserid, followeduserid) values (763, 187);
-insert into social.relationships (followeruserid, followeduserid) values (585, 891);
-insert into social.relationships (followeruserid, followeduserid) values (613, 686);
-insert into social.relationships (followeruserid, followeduserid) values (413, 725);
-insert into social.relationships (followeruserid, followeduserid) values (149, 257);
-insert into social.relationships (followeruserid, followeduserid) values (255, 31);
-insert into social.relationships (followeruserid, followeduserid) values (136, 445);
-insert into social.relationships (followeruserid, followeduserid) values (121, 36);
-insert into social.relationships (followeruserid, followeduserid) values (362, 370);
-insert into social.relationships (followeruserid, followeduserid) values (597, 947);
-insert into social.relationships (followeruserid, followeduserid) values (672, 574);
-insert into social.relationships (followeruserid, followeduserid) values (841, 223);
-insert into social.relationships (followeruserid, followeduserid) values (540, 560);
-insert into social.relationships (followeruserid, followeduserid) values (764, 837);
-insert into social.relationships (followeruserid, followeduserid) values (16, 714);
-insert into social.relationships (followeruserid, followeduserid) values (710, 968);
-insert into social.relationships (followeruserid, followeduserid) values (264, 998);
-insert into social.relationships (followeruserid, followeduserid) values (645, 596);
-insert into social.relationships (followeruserid, followeduserid) values (909, 159);
-insert into social.relationships (followeruserid, followeduserid) values (920, 359);
-insert into social.relationships (followeruserid, followeduserid) values (500, 522);
-insert into social.relationships (followeruserid, followeduserid) values (260, 462);
-insert into social.relationships (followeruserid, followeduserid) values (549, 252);
-insert into social.relationships (followeruserid, followeduserid) values (671, 228);
-insert into social.relationships (followeruserid, followeduserid) values (736, 304);
-insert into social.relationships (followeruserid, followeduserid) values (466, 915);
-insert into social.relationships (followeruserid, followeduserid) values (176, 595);
-insert into social.relationships (followeruserid, followeduserid) values (43, 318);
-insert into social.relationships (followeruserid, followeduserid) values (30, 574);
-insert into social.relationships (followeruserid, followeduserid) values (606, 506);
-insert into social.relationships (followeruserid, followeduserid) values (536, 192);
-insert into social.relationships (followeruserid, followeduserid) values (222, 198);
-insert into social.relationships (followeruserid, followeduserid) values (103, 761);
-insert into social.relationships (followeruserid, followeduserid) values (556, 49);
-insert into social.relationships (followeruserid, followeduserid) values (950, 374);
-insert into social.relationships (followeruserid, followeduserid) values (733, 521);
-insert into social.relationships (followeruserid, followeduserid) values (983, 32);
-insert into social.relationships (followeruserid, followeduserid) values (201, 287);
-insert into social.relationships (followeruserid, followeduserid) values (416, 724);
-insert into social.relationships (followeruserid, followeduserid) values (122, 307);
-insert into social.relationships (followeruserid, followeduserid) values (245, 115);
-insert into social.relationships (followeruserid, followeduserid) values (783, 985);
-insert into social.relationships (followeruserid, followeduserid) values (849, 135);
-insert into social.relationships (followeruserid, followeduserid) values (186, 699);
-insert into social.relationships (followeruserid, followeduserid) values (697, 146);
-insert into social.relationships (followeruserid, followeduserid) values (85, 774);
-insert into social.relationships (followeruserid, followeduserid) values (86, 387);
-insert into social.relationships (followeruserid, followeduserid) values (446, 909);
-insert into social.relationships (followeruserid, followeduserid) values (987, 994);
-insert into social.relationships (followeruserid, followeduserid) values (253, 762);
-insert into social.relationships (followeruserid, followeduserid) values (313, 444);
-insert into social.relationships (followeruserid, followeduserid) values (631, 505);
-insert into social.relationships (followeruserid, followeduserid) values (524, 454);
-insert into social.relationships (followeruserid, followeduserid) values (347, 259);
-insert into social.relationships (followeruserid, followeduserid) values (892, 573);
-insert into social.relationships (followeruserid, followeduserid) values (18, 395);
-insert into social.relationships (followeruserid, followeduserid) values (599, 249);
-insert into social.relationships (followeruserid, followeduserid) values (792, 546);
-insert into social.relationships (followeruserid, followeduserid) values (429, 949);
-insert into social.relationships (followeruserid, followeduserid) values (353, 248);
-insert into social.relationships (followeruserid, followeduserid) values (453, 899);
-insert into social.relationships (followeruserid, followeduserid) values (394, 610);
-insert into social.relationships (followeruserid, followeduserid) values (188, 428);
-insert into social.relationships (followeruserid, followeduserid) values (16, 875);
-insert into social.relationships (followeruserid, followeduserid) values (939, 494);
-insert into social.relationships (followeruserid, followeduserid) values (6, 729);
-insert into social.relationships (followeruserid, followeduserid) values (855, 335);
-insert into social.relationships (followeruserid, followeduserid) values (218, 989);
-insert into social.relationships (followeruserid, followeduserid) values (493, 711);
-insert into social.relationships (followeruserid, followeduserid) values (361, 453);
-insert into social.relationships (followeruserid, followeduserid) values (512, 831);
-insert into social.relationships (followeruserid, followeduserid) values (451, 777);
-insert into social.relationships (followeruserid, followeduserid) values (896, 905);
-insert into social.relationships (followeruserid, followeduserid) values (266, 318);
-insert into social.relationships (followeruserid, followeduserid) values (473, 533);
-insert into social.relationships (followeruserid, followeduserid) values (134, 503);
-insert into social.relationships (followeruserid, followeduserid) values (226, 441);
-insert into social.relationships (followeruserid, followeduserid) values (760, 181);
-insert into social.relationships (followeruserid, followeduserid) values (791, 805);
-insert into social.relationships (followeruserid, followeduserid) values (760, 721);
-insert into social.relationships (followeruserid, followeduserid) values (156, 356);
-insert into social.relationships (followeruserid, followeduserid) values (41, 448);
-insert into social.relationships (followeruserid, followeduserid) values (208, 822);
-insert into social.relationships (followeruserid, followeduserid) values (905, 528);
-insert into social.relationships (followeruserid, followeduserid) values (141, 374);
-insert into social.relationships (followeruserid, followeduserid) values (96, 535);
-insert into social.relationships (followeruserid, followeduserid) values (744, 345);
-insert into social.relationships (followeruserid, followeduserid) values (373, 618);
-insert into social.relationships (followeruserid, followeduserid) values (659, 376);
-insert into social.relationships (followeruserid, followeduserid) values (672, 48);
-insert into social.relationships (followeruserid, followeduserid) values (828, 561);
-insert into social.relationships (followeruserid, followeduserid) values (483, 247);
-insert into social.relationships (followeruserid, followeduserid) values (291, 343);
-insert into social.relationships (followeruserid, followeduserid) values (593, 810);
-insert into social.relationships (followeruserid, followeduserid) values (294, 394);
-insert into social.relationships (followeruserid, followeduserid) values (465, 839);
-insert into social.relationships (followeruserid, followeduserid) values (91, 763);
-insert into social.relationships (followeruserid, followeduserid) values (23, 754);
-insert into social.relationships (followeruserid, followeduserid) values (895, 76);
-insert into social.relationships (followeruserid, followeduserid) values (540, 148);
-insert into social.relationships (followeruserid, followeduserid) values (449, 11);
-insert into social.relationships (followeruserid, followeduserid) values (930, 21);
-insert into social.relationships (followeruserid, followeduserid) values (84, 310);
-insert into social.relationships (followeruserid, followeduserid) values (912, 319);
-insert into social.relationships (followeruserid, followeduserid) values (445, 768);
-insert into social.relationships (followeruserid, followeduserid) values (609, 36);
-insert into social.relationships (followeruserid, followeduserid) values (486, 623);
-insert into social.relationships (followeruserid, followeduserid) values (561, 30);
-insert into social.relationships (followeruserid, followeduserid) values (629, 844);
-insert into social.relationships (followeruserid, followeduserid) values (214, 735);
-insert into social.relationships (followeruserid, followeduserid) values (43, 915);
-insert into social.relationships (followeruserid, followeduserid) values (673, 48);
-insert into social.relationships (followeruserid, followeduserid) values (319, 395);
-insert into social.relationships (followeruserid, followeduserid) values (354, 405);
-insert into social.relationships (followeruserid, followeduserid) values (259, 989);
-insert into social.relationships (followeruserid, followeduserid) values (583, 145);
-insert into social.relationships (followeruserid, followeduserid) values (477, 590);
-insert into social.relationships (followeruserid, followeduserid) values (890, 82);
-insert into social.relationships (followeruserid, followeduserid) values (864, 618);
-insert into social.relationships (followeruserid, followeduserid) values (409, 287);
-insert into social.relationships (followeruserid, followeduserid) values (149, 987);
-insert into social.relationships (followeruserid, followeduserid) values (386, 518);
-insert into social.relationships (followeruserid, followeduserid) values (482, 294);
-insert into social.relationships (followeruserid, followeduserid) values (98, 163);
-insert into social.relationships (followeruserid, followeduserid) values (451, 456);
-insert into social.relationships (followeruserid, followeduserid) values (529, 770);
-insert into social.relationships (followeruserid, followeduserid) values (395, 742);
-insert into social.relationships (followeruserid, followeduserid) values (40, 353);
-insert into social.relationships (followeruserid, followeduserid) values (428, 197);
-insert into social.relationships (followeruserid, followeduserid) values (28, 178);
-insert into social.relationships (followeruserid, followeduserid) values (289, 352);
-insert into social.relationships (followeruserid, followeduserid) values (427, 151);
-insert into social.relationships (followeruserid, followeduserid) values (697, 671);
-insert into social.relationships (followeruserid, followeduserid) values (222, 537);
-insert into social.relationships (followeruserid, followeduserid) values (184, 488);
-insert into social.relationships (followeruserid, followeduserid) values (63, 800);
-insert into social.relationships (followeruserid, followeduserid) values (965, 430);
-insert into social.relationships (followeruserid, followeduserid) values (341, 410);
-insert into social.relationships (followeruserid, followeduserid) values (325, 314);
-insert into social.relationships (followeruserid, followeduserid) values (93, 429);
-insert into social.relationships (followeruserid, followeduserid) values (731, 10);
-insert into social.relationships (followeruserid, followeduserid) values (301, 20);
-insert into social.relationships (followeruserid, followeduserid) values (76, 548);
-insert into social.relationships (followeruserid, followeduserid) values (117, 802);
-insert into social.relationships (followeruserid, followeduserid) values (99, 326);
-insert into social.relationships (followeruserid, followeduserid) values (565, 878);
-insert into social.relationships (followeruserid, followeduserid) values (578, 409);
-insert into social.relationships (followeruserid, followeduserid) values (913, 955);
-insert into social.relationships (followeruserid, followeduserid) values (587, 393);
-insert into social.relationships (followeruserid, followeduserid) values (676, 188);
-insert into social.relationships (followeruserid, followeduserid) values (608, 318);
-insert into social.relationships (followeruserid, followeduserid) values (720, 868);
-insert into social.relationships (followeruserid, followeduserid) values (451, 94);
-insert into social.relationships (followeruserid, followeduserid) values (956, 221);
-insert into social.relationships (followeruserid, followeduserid) values (245, 710);
-insert into social.relationships (followeruserid, followeduserid) values (712, 686);
-insert into social.relationships (followeruserid, followeduserid) values (868, 602);
-insert into social.relationships (followeruserid, followeduserid) values (954, 73);
-insert into social.relationships (followeruserid, followeduserid) values (555, 618);
-insert into social.relationships (followeruserid, followeduserid) values (804, 660);
-insert into social.relationships (followeruserid, followeduserid) values (28, 352);
-insert into social.relationships (followeruserid, followeduserid) values (574, 352);
-insert into social.relationships (followeruserid, followeduserid) values (552, 291);
-insert into social.relationships (followeruserid, followeduserid) values (975, 407);
-insert into social.relationships (followeruserid, followeduserid) values (388, 675);
-insert into social.relationships (followeruserid, followeduserid) values (867, 756);
-insert into social.relationships (followeruserid, followeduserid) values (812, 393);
-insert into social.relationships (followeruserid, followeduserid) values (347, 745);
-insert into social.relationships (followeruserid, followeduserid) values (283, 968);
-insert into social.relationships (followeruserid, followeduserid) values (89, 78);
-insert into social.relationships (followeruserid, followeduserid) values (821, 924);
-insert into social.relationships (followeruserid, followeduserid) values (64, 198);
-insert into social.relationships (followeruserid, followeduserid) values (102, 767);
-insert into social.relationships (followeruserid, followeduserid) values (361, 553);
-insert into social.relationships (followeruserid, followeduserid) values (262, 539);
-insert into social.relationships (followeruserid, followeduserid) values (130, 215);
-insert into social.relationships (followeruserid, followeduserid) values (858, 918);
-insert into social.relationships (followeruserid, followeduserid) values (938, 963);
-insert into social.relationships (followeruserid, followeduserid) values (357, 264);
-insert into social.relationships (followeruserid, followeduserid) values (450, 732);
-insert into social.relationships (followeruserid, followeduserid) values (550, 733);
-insert into social.relationships (followeruserid, followeduserid) values (349, 506);
-insert into social.relationships (followeruserid, followeduserid) values (791, 803);
-insert into social.relationships (followeruserid, followeduserid) values (830, 810);
-insert into social.relationships (followeruserid, followeduserid) values (224, 321);
-insert into social.relationships (followeruserid, followeduserid) values (953, 586);
-insert into social.relationships (followeruserid, followeduserid) values (374, 321);
-insert into social.relationships (followeruserid, followeduserid) values (882, 144);
-insert into social.relationships (followeruserid, followeduserid) values (343, 922);
-insert into social.relationships (followeruserid, followeduserid) values (904, 677);
-insert into social.relationships (followeruserid, followeduserid) values (447, 996);
-insert into social.relationships (followeruserid, followeduserid) values (771, 827);
-insert into social.relationships (followeruserid, followeduserid) values (139, 122);
-insert into social.relationships (followeruserid, followeduserid) values (371, 955);
-insert into social.relationships (followeruserid, followeduserid) values (305, 715);
-insert into social.relationships (followeruserid, followeduserid) values (291, 817);
-insert into social.relationships (followeruserid, followeduserid) values (187, 73);
-insert into social.relationships (followeruserid, followeduserid) values (857, 150);
-insert into social.relationships (followeruserid, followeduserid) values (551, 427);
-insert into social.relationships (followeruserid, followeduserid) values (403, 733);
-insert into social.relationships (followeruserid, followeduserid) values (918, 193);
-insert into social.relationships (followeruserid, followeduserid) values (973, 326);
-insert into social.relationships (followeruserid, followeduserid) values (771, 830);
-insert into social.relationships (followeruserid, followeduserid) values (97, 569);
-insert into social.relationships (followeruserid, followeduserid) values (626, 29);
-insert into social.relationships (followeruserid, followeduserid) values (265, 413);
-insert into social.relationships (followeruserid, followeduserid) values (516, 570);
-insert into social.relationships (followeruserid, followeduserid) values (736, 571);
-insert into social.relationships (followeruserid, followeduserid) values (885, 521);
-insert into social.relationships (followeruserid, followeduserid) values (676, 925);
-insert into social.relationships (followeruserid, followeduserid) values (184, 418);
-insert into social.relationships (followeruserid, followeduserid) values (492, 371);
-insert into social.relationships (followeruserid, followeduserid) values (994, 407);
-insert into social.relationships (followeruserid, followeduserid) values (238, 14);
-insert into social.relationships (followeruserid, followeduserid) values (482, 22);
-insert into social.relationships (followeruserid, followeduserid) values (121, 193);
-insert into social.relationships (followeruserid, followeduserid) values (993, 413);
-insert into social.relationships (followeruserid, followeduserid) values (482, 827);
-insert into social.relationships (followeruserid, followeduserid) values (739, 175);
-insert into social.relationships (followeruserid, followeduserid) values (69, 157);
-insert into social.relationships (followeruserid, followeduserid) values (464, 77);
-insert into social.relationships (followeruserid, followeduserid) values (316, 385);
-insert into social.relationships (followeruserid, followeduserid) values (734, 950);
-insert into social.relationships (followeruserid, followeduserid) values (781, 193);
-insert into social.relationships (followeruserid, followeduserid) values (666, 786);
-insert into social.relationships (followeruserid, followeduserid) values (882, 805);
-insert into social.relationships (followeruserid, followeduserid) values (691, 258);
-insert into social.relationships (followeruserid, followeduserid) values (377, 187);
-insert into social.relationships (followeruserid, followeduserid) values (53, 271);
-insert into social.relationships (followeruserid, followeduserid) values (162, 502);
-insert into social.relationships (followeruserid, followeduserid) values (562, 625);
-insert into social.relationships (followeruserid, followeduserid) values (685, 802);
-insert into social.relationships (followeruserid, followeduserid) values (664, 675);
-insert into social.relationships (followeruserid, followeduserid) values (949, 148);
-insert into social.relationships (followeruserid, followeduserid) values (871, 275);
-insert into social.relationships (followeruserid, followeduserid) values (341, 2);
-insert into social.relationships (followeruserid, followeduserid) values (263, 274);
-insert into social.relationships (followeruserid, followeduserid) values (609, 95);
-insert into social.relationships (followeruserid, followeduserid) values (900, 561);
-insert into social.relationships (followeruserid, followeduserid) values (520, 222);
-insert into social.relationships (followeruserid, followeduserid) values (910, 153);
-insert into social.relationships (followeruserid, followeduserid) values (858, 900);
-insert into social.relationships (followeruserid, followeduserid) values (696, 495);
-insert into social.relationships (followeruserid, followeduserid) values (711, 697);
-insert into social.relationships (followeruserid, followeduserid) values (392, 779);
-insert into social.relationships (followeruserid, followeduserid) values (849, 541);
-insert into social.relationships (followeruserid, followeduserid) values (811, 768);
-insert into social.relationships (followeruserid, followeduserid) values (599, 557);
-insert into social.relationships (followeruserid, followeduserid) values (480, 887);
-insert into social.relationships (followeruserid, followeduserid) values (953, 61);
-insert into social.relationships (followeruserid, followeduserid) values (66, 200);
-insert into social.relationships (followeruserid, followeduserid) values (736, 369);
-insert into social.relationships (followeruserid, followeduserid) values (588, 231);
-insert into social.relationships (followeruserid, followeduserid) values (864, 998);
-insert into social.relationships (followeruserid, followeduserid) values (686, 56);
-insert into social.relationships (followeruserid, followeduserid) values (636, 98);
-insert into social.relationships (followeruserid, followeduserid) values (886, 281);
-insert into social.relationships (followeruserid, followeduserid) values (768, 896);
-insert into social.relationships (followeruserid, followeduserid) values (829, 790);
-insert into social.relationships (followeruserid, followeduserid) values (441, 319);
-insert into social.relationships (followeruserid, followeduserid) values (676, 185);
-insert into social.relationships (followeruserid, followeduserid) values (21, 213);
-insert into social.relationships (followeruserid, followeduserid) values (661, 90);
-insert into social.relationships (followeruserid, followeduserid) values (657, 639);
-insert into social.relationships (followeruserid, followeduserid) values (341, 382);
-insert into social.relationships (followeruserid, followeduserid) values (324, 360);
-insert into social.relationships (followeruserid, followeduserid) values (838, 794);
-insert into social.relationships (followeruserid, followeduserid) values (919, 437);
-insert into social.relationships (followeruserid, followeduserid) values (828, 603);
-insert into social.relationships (followeruserid, followeduserid) values (46, 942);
-insert into social.relationships (followeruserid, followeduserid) values (365, 354);
-insert into social.relationships (followeruserid, followeduserid) values (661, 413);
-insert into social.relationships (followeruserid, followeduserid) values (499, 811);
-insert into social.relationships (followeruserid, followeduserid) values (891, 663);
-insert into social.relationships (followeruserid, followeduserid) values (225, 250);
-insert into social.relationships (followeruserid, followeduserid) values (773, 767);
-insert into social.relationships (followeruserid, followeduserid) values (392, 849);
-insert into social.relationships (followeruserid, followeduserid) values (210, 304);
-insert into social.relationships (followeruserid, followeduserid) values (122, 678);
-insert into social.relationships (followeruserid, followeduserid) values (498, 728);
-insert into social.relationships (followeruserid, followeduserid) values (465, 651);
-insert into social.relationships (followeruserid, followeduserid) values (704, 46);
-insert into social.relationships (followeruserid, followeduserid) values (544, 458);
-insert into social.relationships (followeruserid, followeduserid) values (469, 841);
-insert into social.relationships (followeruserid, followeduserid) values (945, 32);
-insert into social.relationships (followeruserid, followeduserid) values (928, 612);
-insert into social.relationships (followeruserid, followeduserid) values (70, 90);
-insert into social.relationships (followeruserid, followeduserid) values (568, 114);
-insert into social.relationships (followeruserid, followeduserid) values (83, 291);
-insert into social.relationships (followeruserid, followeduserid) values (22, 932);
-insert into social.relationships (followeruserid, followeduserid) values (702, 122);
+insert into social.relationships (followeruserid, followeduserid) 
+values 
+(445, 535),
+(891, 802),
+(969, 646),
+(741, 882),
+(17, 811),
+(642, 233),
+(911, 977),
+(702, 242),
+(533, 529),
+(623, 398),
+(571, 432),
+(747, 264),
+(304, 181),
+(79, 315),
+(756, 489),
+(677, 89),
+(499, 809),
+(887, 811),
+(616, 124),
+(219, 522),
+(107, 759),
+(351, 609),
+(784, 943),
+(334, 757),
+(245, 928),
+(656, 439),
+(971, 739),
+(935, 127),
+(483, 293),
+(9, 254),
+(123, 436),
+(379, 638),
+(830, 6),
+(747, 605),
+(551, 682),
+(921, 307),
+(390, 580),
+(776, 29),
+(849, 386),
+(138, 884),
+(635, 206),
+(773, 38),
+(625, 925),
+(779, 181),
+(476, 552),
+(540, 210),
+(728, 356),
+(140, 487),
+(520, 873),
+(806, 916),
+(431, 18),
+(649, 94),
+(660, 886),
+(972, 2),
+(790, 310),
+(591, 163),
+(190, 788),
+(217, 317),
+(669, 899),
+(947, 864),
+(266, 728),
+(690, 788),
+(981, 132),
+(742, 145),
+(256, 501),
+(841, 890),
+(825, 161),
+(484, 87),
+(168, 911),
+(284, 29),
+(61, 410),
+(708, 218),
+(983, 175),
+(561, 820),
+(125, 409),
+(115, 231),
+(674, 685),
+(309, 157),
+(949, 964),
+(995, 396),
+(673, 259),
+(162, 609),
+(36, 542),
+(128, 598),
+(52, 28),
+(177, 569),
+(661, 698),
+(482, 307),
+(667, 290),
+(759, 461),
+(851, 559),
+(902, 980),
+(840, 422),
+(806, 223),
+(48, 925),
+(378, 385),
+(35, 984),
+(42, 602),
+(491, 559),
+(679, 860),
+(617, 70),
+(994, 393),
+(891, 554),
+(663, 457),
+(436, 992),
+(267, 682),
+(281, 46),
+(453, 458),
+(420, 824),
+(252, 131),
+(577, 652),
+(394, 155),
+(405, 447),
+(973, 264),
+(328, 61),
+(86, 574),
+(76, 816),
+(881, 520),
+(519, 99),
+(644, 29),
+(216, 740),
+(395, 26),
+(63, 946),
+(512, 976),
+(248, 500),
+(957, 954),
+(937, 344),
+(85, 215),
+(790, 695),
+(160, 600),
+(900, 957),
+(756, 375),
+(83, 749),
+(100, 741),
+(39, 54),
+(904, 533),
+(627, 694),
+(57, 629),
+(204, 387),
+(941, 873),
+(13, 314),
+(643, 307),
+(1, 193),
+(392, 389),
+(53, 648),
+(909, 527),
+(924, 476),
+(559, 431),
+(430, 324),
+(620, 805),
+(362, 462),
+(687, 276),
+(133, 820),
+(960, 825),
+(733, 571),
+(252, 34),
+(972, 983),
+(375, 394),
+(637, 574),
+(701, 19),
+(453, 413),
+(967, 788),
+(562, 756),
+(870, 245),
+(836, 983),
+(357, 520),
+(305, 493),
+(938, 899),
+(838, 625),
+(23, 145),
+(481, 984),
+(397, 667),
+(155, 714),
+(688, 71),
+(603, 538),
+(681, 735),
+(140, 98),
+(870, 539),
+(110, 335),
+(421, 656),
+(548, 521),
+(853, 643),
+(852, 157),
+(558, 679),
+(969, 554),
+(494, 253),
+(960, 165),
+(26, 833),
+(415, 756),
+(248, 505),
+(733, 411),
+(668, 264),
+(967, 65),
+(494, 951),
+(480, 304),
+(869, 840),
+(564, 557),
+(314, 68),
+(818, 657),
+(908, 111),
+(454, 883),
+(222, 961),
+(108, 743),
+(118, 538),
+(300, 947),
+(537, 845),
+(542, 563),
+(278, 873),
+(351, 793),
+(712, 518),
+(623, 619),
+(586, 398),
+(795, 421),
+(17, 39),
+(425, 454),
+(327, 27),
+(666, 661),
+(375, 557),
+(854, 438),
+(950, 892),
+(934, 830),
+(312, 119),
+(570, 83),
+(687, 110),
+(768, 816),
+(56, 134),
+(378, 781),
+(841, 4),
+(48, 690),
+(875, 940),
+(500, 408),
+(433, 371),
+(785, 263),
+(991, 36),
+(673, 796),
+(245, 476),
+(698, 161),
+(108, 35),
+(908, 88),
+(67, 235),
+(811, 588),
+(614, 309),
+(159, 886),
+(591, 221),
+(795, 906),
+(730, 921),
+(398, 797),
+(862, 567),
+(878, 343),
+(313, 586),
+(390, 923),
+(565, 952),
+(74, 995),
+(265, 785),
+(362, 991),
+(540, 770),
+(877, 218),
+(994, 160),
+(517, 519),
+(642, 826),
+(699, 48),
+(563, 575),
+(840, 5),
+(65, 943),
+(585, 93),
+(786, 44),
+(63, 677),
+(638, 74),
+(901, 708),
+(497, 542),
+(532, 422),
+(308, 462),
+(809, 531),
+(461, 412),
+(630, 715),
+(437, 307),
+(472, 545),
+(79, 502),
+(494, 771),
+(132, 263),
+(49, 485),
+(654, 991),
+(69, 338),
+(435, 920),
+(874, 758),
+(562, 734),
+(435, 2),
+(300, 481),
+(975, 342),
+(944, 98),
+(951, 653),
+(853, 157),
+(340, 605),
+(886, 171),
+(557, 575),
+(388, 975),
+(407, 320),
+(49, 221),
+(791, 483),
+(707, 887),
+(445, 280),
+(17, 903),
+(787, 726),
+(866, 277),
+(914, 145),
+(605, 584),
+(144, 820),
+(494, 831),
+(708, 431),
+(27, 502),
+(482, 927),
+(209, 761),
+(256, 276),
+(771, 398),
+(45, 929),
+(464, 821),
+(538, 710),
+(283, 542),
+(148, 569),
+(43, 536),
+(69, 106),
+(641, 73),
+(635, 238),
+(115, 571),
+(75, 358),
+(981, 818),
+(636, 392),
+(630, 545),
+(371, 920),
+(521, 238),
+(2, 795),
+(992, 629),
+(43, 609),
+(837, 530),
+(966, 410),
+(675, 850),
+(83, 796),
+(531, 99),
+(707, 666),
+(386, 594),
+(555, 469),
+(861, 915),
+(120, 797),
+(115, 838),
+(735, 680),
+(400, 209),
+(394, 171),
+(689, 268),
+(189, 357),
+(315, 123),
+(892, 66),
+(126, 846),
+(915, 954),
+(78, 102),
+(421, 797),
+(947, 116),
+(87, 300),
+(422, 545),
+(250, 268),
+(472, 913),
+(305, 833),
+(157, 775),
+(294, 914),
+(28, 549),
+(757, 80),
+(766, 375),
+(818, 486),
+(637, 879),
+(61, 978),
+(200, 424),
+(379, 83),
+(187, 273),
+(487, 552),
+(658, 332),
+(10, 113),
+(946, 925),
+(334, 515),
+(48, 504),
+(920, 360),
+(637, 183),
+(492, 209),
+(497, 525),
+(500, 957),
+(242, 833),
+(764, 723),
+(473, 32),
+(164, 335),
+(835, 420),
+(15, 367),
+(108, 614),
+(884, 838),
+(969, 749),
+(931, 140),
+(108, 908),
+(234, 749),
+(260, 84),
+(439, 468),
+(965, 462),
+(685, 590),
+(216, 427),
+(319, 459),
+(640, 597),
+(700, 55),
+(619, 801),
+(353, 250),
+(53, 978),
+(703, 329),
+(872, 177),
+(748, 938),
+(665, 769),
+(789, 586),
+(841, 236),
+(308, 448),
+(411, 616),
+(478, 227),
+(986, 865),
+(215, 925),
+(394, 189),
+(330, 918),
+(172, 722),
+(64, 924),
+(505, 521),
+(812, 134),
+(438, 188),
+(242, 168),
+(500, 251),
+(812, 221),
+(948, 341),
+(631, 366),
+(728, 855),
+(775, 811),
+(625, 222),
+(641, 687),
+(214, 229),
+(107, 55),
+(759, 65),
+(580, 833),
+(584, 690),
+(420, 256),
+(322, 224),
+(381, 535),
+(989, 280),
+(832, 544),
+(577, 781),
+(647, 885),
+(145, 409),
+(947, 812),
+(138, 663),
+(252, 902),
+(796, 243),
+(676, 914),
+(218, 284),
+(20, 168),
+(465, 691),
+(259, 707),
+(88, 819),
+(830, 169),
+(936, 814),
+(814, 257),
+(259, 183),
+(555, 83),
+(157, 455),
+(542, 251),
+(694, 972),
+(762, 933),
+(285, 503),
+(981, 607),
+(871, 214),
+(684, 574),
+(490, 181),
+(362, 948),
+(604, 443),
+(383, 952),
+(500, 171),
+(361, 46),
+(396, 883),
+(442, 291),
+(517, 163),
+(431, 578),
+(807, 430),
+(135, 248),
+(966, 542),
+(147, 426),
+(871, 251),
+(378, 598),
+(506, 958),
+(13, 428),
+(784, 107),
+(460, 155),
+(11, 503),
+(946, 712),
+(580, 721),
+(147, 437),
+(914, 463),
+(796, 126),
+(956, 178),
+(200, 123),
+(725, 740),
+(72, 732),
+(164, 197),
+(602, 102),
+(617, 704),
+(491, 411),
+(897, 166),
+(321, 306),
+(23, 245),
+(847, 653),
+(842, 247),
+(151, 907),
+(157, 428),
+(633, 806),
+(624, 727),
+(726, 922),
+(143, 204),
+(22, 264),
+(367, 914),
+(43, 318),
+(970, 355),
+(385, 7),
+(206, 875),
+(386, 634),
+(246, 173),
+(387, 910),
+(184, 514),
+(649, 883),
+(353, 334),
+(621, 20),
+(879, 714),
+(816, 668),
+(439, 256),
+(135, 721),
+(67, 577),
+(557, 646),
+(817, 183),
+(578, 90),
+(614, 439),
+(467, 599),
+(364, 806),
+(439, 934),
+(259, 796),
+(262, 495),
+(316, 288),
+(455, 890),
+(230, 392),
+(680, 891),
+(611, 182),
+(540, 602),
+(754, 627),
+(651, 106),
+(716, 491),
+(977, 412),
+(673, 840),
+(940, 210),
+(418, 971),
+(696, 772),
+(77, 251),
+(373, 150),
+(693, 67),
+(712, 331),
+(591, 466),
+(751, 123),
+(627, 58),
+(1000, 682),
+(297, 171),
+(796, 800),
+(32, 73),
+(886, 567),
+(410, 673),
+(266, 822),
+(274, 836),
+(711, 197),
+(479, 614),
+(464, 154),
+(693, 672),
+(754, 904),
+(15, 991),
+(312, 52),
+(3, 239),
+(398, 690),
+(390, 941),
+(390, 887),
+(567, 360),
+(873, 202),
+(621, 964),
+(437, 489),
+(603, 387),
+(32, 792),
+(528, 825),
+(289, 712),
+(820, 220),
+(291, 377),
+(243, 327),
+(137, 820),
+(169, 399),
+(150, 204),
+(558, 514),
+(718, 867),
+(217, 626),
+(826, 431),
+(82, 298),
+(311, 689),
+(639, 833),
+(122, 560),
+(547, 328),
+(162, 226),
+(459, 498),
+(540, 899),
+(940, 476),
+(331, 813),
+(338, 570),
+(160, 915),
+(644, 773),
+(311, 247),
+(672, 626),
+(85, 767),
+(898, 545),
+(720, 48),
+(353, 794),
+(738, 679),
+(866, 21),
+(723, 787),
+(931, 396),
+(359, 573),
+(809, 918),
+(870, 627),
+(856, 442),
+(699, 795),
+(167, 701),
+(781, 563),
+(202, 919),
+(738, 692),
+(169, 502),
+(602, 246),
+(747, 714),
+(387, 649),
+(936, 112),
+(1, 99),
+(583, 564),
+(715, 45),
+(697, 338),
+(752, 100),
+(61, 403),
+(229, 438),
+(663, 812),
+(104, 175),
+(603, 344),
+(180, 198),
+(929, 527),
+(848, 908),
+(102, 770),
+(480, 1000),
+(421, 814),
+(990, 856),
+(990, 523),
+(358, 885),
+(167, 147),
+(693, 999),
+(836, 790),
+(824, 277),
+(615, 88),
+(970, 834),
+(388, 189),
+(429, 644),
+(342, 287),
+(152, 546),
+(736, 116),
+(251, 856),
+(212, 805),
+(697, 613),
+(322, 283),
+(130, 702),
+(939, 380),
+(215, 88),
+(574, 436),
+(245, 577),
+(757, 924),
+(277, 401),
+(552, 17),
+(368, 595),
+(608, 786),
+(936, 156),
+(41, 945),
+(182, 715),
+(92, 223),
+(446, 293),
+(480, 502),
+(812, 607),
+(686, 240),
+(523, 55),
+(421, 68),
+(765, 482),
+(652, 406),
+(569, 71),
+(881, 297),
+(950, 666),
+(624, 623),
+(318, 524),
+(183, 474),
+(354, 574),
+(375, 104),
+(175, 252),
+(273, 269),
+(215, 791),
+(936, 271),
+(158, 299),
+(359, 642),
+(636, 267),
+(613, 256),
+(656, 690),
+(763, 187),
+(585, 891),
+(613, 686),
+(413, 725),
+(149, 257),
+(255, 31),
+(136, 445),
+(121, 36),
+(362, 370),
+(597, 947),
+(672, 574),
+(841, 223),
+(540, 560),
+(764, 837),
+(16, 714),
+(710, 968),
+(264, 998),
+(645, 596),
+(909, 159),
+(920, 359),
+(500, 522),
+(260, 462),
+(549, 252),
+(671, 228),
+(736, 304),
+(466, 915),
+(176, 595),
+(43, 318),
+(30, 574),
+(606, 506),
+(536, 192),
+(222, 198),
+(103, 761),
+(556, 49),
+(950, 374),
+(733, 521),
+(983, 32),
+(201, 287),
+(416, 724),
+(122, 307),
+(245, 115),
+(783, 985),
+(849, 135),
+(186, 699),
+(697, 146),
+(85, 774),
+(86, 387),
+(446, 909),
+(987, 994),
+(253, 762),
+(313, 444),
+(631, 505),
+(524, 454),
+(347, 259),
+(892, 573),
+(18, 395),
+(599, 249),
+(792, 546),
+(429, 949),
+(353, 248),
+(453, 899),
+(394, 610),
+(188, 428),
+(16, 875),
+(939, 494),
+(6, 729),
+(855, 335),
+(218, 989),
+(493, 711),
+(361, 453),
+(512, 831),
+(451, 777),
+(896, 905),
+(266, 318),
+(473, 533),
+(134, 503),
+(226, 441),
+(760, 181),
+(791, 805),
+(760, 721),
+(156, 356),
+(41, 448),
+(208, 822),
+(905, 528),
+(141, 374),
+(96, 535),
+(744, 345),
+(373, 618),
+(659, 376),
+(672, 48),
+(828, 561),
+(483, 247),
+(291, 343),
+(593, 810),
+(294, 394),
+(465, 839),
+(91, 763),
+(23, 754),
+(895, 76),
+(540, 148),
+(449, 11),
+(930, 21),
+(84, 310),
+(912, 319),
+(445, 768),
+(609, 36),
+(486, 623),
+(561, 30),
+(629, 844),
+(214, 735),
+(43, 915),
+(673, 48),
+(319, 395),
+(354, 405),
+(259, 989),
+(583, 145),
+(477, 590),
+(890, 82),
+(864, 618),
+(409, 287),
+(149, 987),
+(386, 518),
+(482, 294),
+(98, 163),
+(451, 456),
+(529, 770),
+(395, 742),
+(40, 353),
+(428, 197),
+(28, 178),
+(289, 352),
+(427, 151),
+(697, 671),
+(222, 537),
+(184, 488),
+(63, 800),
+(965, 430),
+(341, 410),
+(325, 314),
+(93, 429),
+(731, 10),
+(301, 20),
+(76, 548),
+(117, 802),
+(99, 326),
+(565, 878),
+(578, 409),
+(913, 955),
+(587, 393),
+(676, 188),
+(608, 318),
+(720, 868),
+(451, 94),
+(956, 221),
+(245, 710),
+(712, 686),
+(868, 602),
+(954, 73),
+(555, 618),
+(804, 660),
+(28, 352),
+(574, 352),
+(552, 291),
+(975, 407),
+(388, 675),
+(867, 756),
+(812, 393),
+(347, 745),
+(283, 968),
+(89, 78),
+(821, 924),
+(64, 198),
+(102, 767),
+(361, 553),
+(262, 539),
+(130, 215),
+(858, 918),
+(938, 963),
+(357, 264),
+(450, 732),
+(550, 733),
+(349, 506),
+(791, 803),
+(830, 810),
+(224, 321),
+(953, 586),
+(374, 321),
+(882, 144),
+(343, 922),
+(904, 677),
+(447, 996),
+(771, 827),
+(139, 122),
+(371, 955),
+(305, 715),
+(291, 817),
+(187, 73),
+(857, 150),
+(551, 427),
+(403, 733),
+(918, 193),
+(973, 326),
+(771, 830),
+(97, 569),
+(626, 29),
+(265, 413),
+(516, 570),
+(736, 571),
+(885, 521),
+(676, 925),
+(184, 418),
+(492, 371),
+(994, 407),
+(238, 14),
+(482, 22),
+(121, 193),
+(993, 413),
+(482, 827),
+(739, 175),
+(69, 157),
+(464, 77),
+(316, 385),
+(734, 950),
+(781, 193),
+(666, 786),
+(882, 805),
+(691, 258),
+(377, 187),
+(53, 271),
+(162, 502),
+(562, 625),
+(685, 802),
+(664, 675),
+(949, 148),
+(871, 275),
+(341, 2),
+(263, 274),
+(609, 95),
+(900, 561),
+(520, 222),
+(910, 153),
+(858, 900),
+(696, 495),
+(711, 697),
+(392, 779),
+(849, 541),
+(811, 768),
+(599, 557),
+(480, 887),
+(953, 61),
+(66, 200),
+(736, 369),
+(588, 231),
+(864, 998),
+(686, 56),
+(636, 98),
+(886, 281),
+(768, 896),
+(829, 790),
+(441, 319),
+(676, 185),
+(21, 213),
+(661, 90),
+(657, 639),
+(341, 382),
+(324, 360),
+(838, 794),
+(919, 437),
+(828, 603),
+(46, 942),
+(365, 354),
+(661, 413),
+(499, 811),
+(891, 663),
+(225, 250),
+(773, 767),
+(392, 849),
+(210, 304),
+(122, 678),
+(498, 728),
+(465, 651),
+(704, 46),
+(544, 458),
+(469, 841),
+(945, 32),
+(928, 612),
+(70, 90),
+(568, 114),
+(83, 291),
+(22, 932),
+(702, 122);

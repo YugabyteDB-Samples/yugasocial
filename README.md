@@ -1,4 +1,4 @@
-# YugaSocial
+# YugaSocial - Social Media App on YugabyteDB
 
 This project is a social media application built on ReactJS, Node.js and YugabyteDB (or optionally, MySQL). It is an extension of the sample app developed by [Lama Dev on YouTube](https://www.youtube.com/watch?v=1EuNnZEp2sQ), which can be found [here](https://github.com/safak/youtube2022/tree/social-app).
 

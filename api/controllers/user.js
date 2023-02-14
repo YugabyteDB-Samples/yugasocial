@@ -16,7 +16,7 @@ export const getUsers = (req, res) => {
 };
 export const getUsersYugabyte = (req, res) => {
   const userid = req.query.userid;
-  const q = "SELECT * FROM users WHERE id != $1";
+  const q = "SELECT * FROM users WHERE id != $1 LIMIT 5";
 
   db.query(q, [userid], (err, data) => {
     if (err) return res.status(500).json(err);
