@@ -29,7 +29,7 @@ const Comments = ({ postid }) => {
     }
   );
 
-  const handleClick = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     mutation.mutate({ description: desc, postid });
     setDesc("");
@@ -39,7 +39,7 @@ const Comments = ({ postid }) => {
   const profilepic = currentUser?.profilepic?.length > 0 ? `http://localhost:8800/images/${currentUser.profilepic}` :  "https://static.thenounproject.com/png/3672322-200.png"
   return (
     <div className="comments">
-      <div className="write">
+      <form className="write" onSubmit={handleSubmit}>
         <img src={profilepic} alt="" />
         <input
           type="text"
@@ -47,8 +47,8 @@ const Comments = ({ postid }) => {
           value={desc}
           onChange={(e) => setDesc(e.target.value)}
         />
-        <button onClick={handleClick}>Send</button>
-      </div>
+        <button onClick={handleSubmit}>Send</button>
+      </form>
       {error
         ? "Something went wrong"
         : isLoading

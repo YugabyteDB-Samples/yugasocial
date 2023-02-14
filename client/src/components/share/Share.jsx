@@ -37,7 +37,7 @@ const Share = () => {
     }
   );
 
-  const handleClick = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     let imgUrl = "";
     if (file) imgUrl = await upload();
@@ -50,7 +50,7 @@ const Share = () => {
 
   return (
     <div className="share">
-      <div className="container">
+      <form className="container" onSubmit={handleSubmit}>
         <div className="top">
           <div className="left">
             {/* <img src={"/upload/" + currentUser.profilepic} alt="" /> */}
@@ -93,10 +93,10 @@ const Share = () => {
             </div>
           </div>
           <div className="right">
-            <button onClick={handleClick}>Share</button>
+            <button onClick={handleSubmit}>Share</button>
           </div>
         </div>
-      </div>
+      </form>
     </div>
   );
 };
