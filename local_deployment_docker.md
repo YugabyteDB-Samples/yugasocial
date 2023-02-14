@@ -13,6 +13,7 @@ Follow this instruction if you wish to run the entire application with all the c
     - [Running on Custom MySQL Deployment](#running-on-custom-mysql-deployment)
     - [Running on MySQL within Docker](#running-on-mysql-within-docker)
   - [Seed Database](#seed-database)
+  - [Viewing The UI](#viewing-the-ui)
 
 <!-- vscode-markdown-toc-config
     numbering=false
