@@ -10,8 +10,9 @@ Follow this instruction if you wish to run the entire application with all the c
   - [Run Application Services](#run-application-services)
     - [Running on YugabyteDB within Docker](#running-on-yugabytedb-within-docker)
     - [Running on YugabyteDB Managed or Custom YugabyteDB Deployment](#running-on-yugabytedb-managed-or-custom-yugabytedb-deployment)
-    - [Running on Custom MySQL Deployment](#running-on-custom-mysql-deployment)
     - [Running on MySQL within Docker](#running-on-mysql-within-docker)
+    - [Running on Custom MySQL Deployment](#running-on-custom-mysql-deployment)
+    
   - [Seed Database](#seed-database)
   - [Viewing The UI](#viewing-the-ui)
 
@@ -40,16 +41,6 @@ Users have the option to connect these services to YugabyteDB or MySQL.
 
 These database deployments can be hosted in the cloud, with [YugabyteDB Managed](https://www.yugabyte.com/managed/) for YugabyteDB or any other cloud provider for MySQL. Alternatively, YugabyteDB or MySQL can be hosted within Docker.
 
-#### **Running on YugabyteDB Managed or Custom YugabyteDB Deployment**
-
-1. Open the `docker-compose-yugabyte.yaml` file and provide the connection details via the `DB_` settings.
-
-2. Start the application:
-
-```
-docker compose -f docker-compose-yugabyte.yaml up
-```
-
 #### **Running on YugabyteDB within Docker**
 
 This is a self-contained deployment, which doesn't require any additional configuration.
@@ -64,16 +55,15 @@ docker compose -f docker-compose-yugabyte-local.yaml up
 
 <img width="1584" alt="Screen Shot 2022-11-02 at 7 36 17 PM" src="https://user-images.githubusercontent.com/2041330/199637751-616d19ff-e474-4d17-956c-fe672c53052c.png">
 
-#### **Running on Custom MySQL Deployment**
+#### **Running on YugabyteDB Managed or Custom YugabyteDB Deployment**
 
-1. Open the `docker-compose-mysql.yaml` file and provide the connection details via the `DB_` settings.
+1. Open the `docker-compose-yugabyte.yaml` file and provide the connection details via the `DB_` settings.
 
 2. Start the application:
 
 ```
-docker compose -f docker-compose-mysql.yaml up
+docker compose -f docker-compose-yugabyte.yaml up
 ```
-
 #### **Running on MySQL within Docker**
 
 This is a self-contained deployment, which doesn't require any additional configuration.
@@ -82,6 +72,17 @@ Start the application:
 
 ```
 docker compose -f docker-compose-mysql-local.yaml up
+```
+
+
+#### **Running on Custom MySQL Deployment**
+
+1. Open the `docker-compose-mysql.yaml` file and provide the connection details via the `DB_` settings.
+
+2. Start the application:
+
+```
+docker compose -f docker-compose-mysql.yaml up
 ```
 
 ## Seed Database
