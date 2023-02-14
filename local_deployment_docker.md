@@ -118,4 +118,4 @@ For custom database deployments:
 The application UI can be found at [localhost:3000](http://localhost:3000).
 
 1. Log in with the default username and password: `tomthomas` / `abc123`. Alternatively, you can register your own user.
-2.
+2. After logging in, begin interacting with others on YugaSocial!
