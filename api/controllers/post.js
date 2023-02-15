@@ -1,7 +1,7 @@
 import { db } from "../connect.js";
 import jwt from "jsonwebtoken";
 import moment from "moment";
-import QueryService from "../services/QueryService.js";
+import QueryFactory from "../factories/QueryFactory.js";
 const { DB_TYPE } = process.env;
 
 export const getPosts = (req, res) => {
@@ -14,8 +14,8 @@ export const getPosts = (req, res) => {
 
     const q =
       userid !== "undefined"
-        ? QueryService.get("getPostsForUser")
-        : QueryService.get("getPostsForUserAndFollowedUsers");
+        ? QueryFactory.get("getPostsForUser")
+        : QueryFactory.get("getPostsForUserAndFollowedUsers");
 
     const values =
       userid !== "undefined" ? [userid] : [userInfo.id, userInfo.id];
@@ -35,7 +35,7 @@ export const addPost = (req, res) => {
   jwt.verify(token, "secretkey", (err, userInfo) => {
     if (err) return res.status(403).json("Token is not valid!");
 
-    const q = QueryService.get("addPost");
+    const q = QueryFactory.get("addPost");
     const values = [
       req.body.description,
       req.body.img,
@@ -58,7 +58,7 @@ export const deletePost = (req, res) => {
   jwt.verify(token, "secretkey", (err, userInfo) => {
     if (err) return res.status(403).json("Token is not valid!");
 
-    const q = QueryService.get("deletePost");
+    const q = QueryFactory.get("deletePost");
 
     db.query(q, [req.params.id, userInfo.id], (err, data) => {
       if (err) return res.status(500).json(err);

@@ -1,11 +1,11 @@
 import { db } from "../connect.js";
 import jwt from "jsonwebtoken";
-import QueryService from "../services/QueryService.js";
+import QueryFactory from "../factories/QueryFactory.js";
 const { DB_TYPE } = process.env;
 
 export const getUsers = (req, res) => {
   const userid = req.query.userid;
-  const q = QueryService.get("getUsers");
+  const q = QueryFactory.get("getUsers");
 
   db.query(q, [userid], (err, data) => {
     if (err) return res.status(500).json(err);
@@ -20,7 +20,7 @@ export const getUsers = (req, res) => {
 
 export const getUser = (req, res) => {
   const userid = req.params.userid;
-  const q = QueryService.get("getUserById");
+  const q = QueryFactory.get("getUserById");
 
   db.query(q, [userid], (err, data) => {
     if (err) return res.status(500).json(err);
@@ -37,7 +37,7 @@ export const updateUser = (req, res) => {
   jwt.verify(token, "secretkey", (err, userInfo) => {
     if (err) return res.status(403).json("Token is not valid!");
 
-    const q = QueryService.get("updateUser");
+    const q = QueryFactory.get("updateUser");
 
     db.query(
       q,

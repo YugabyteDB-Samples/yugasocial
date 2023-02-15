@@ -1,10 +1,10 @@
 import { db } from "../connect.js";
 import jwt from "jsonwebtoken";
 import moment from "moment";
-import QueryService from "../services/QueryService.js";
+import QueryFactory from "../factories/QueryFactory.js";
 const { DB_TYPE } = process.env;
 export const getComments = (req, res) => {
-  const q = QueryService.get("commentsForPost");
+  const q = QueryFactory.get("commentsForPost");
 
   db.query(q, [req.query.postid], (err, data) => {
     if (err) return res.status(500).json(err);
@@ -19,7 +19,7 @@ export const addComment = (req, res) => {
   jwt.verify(token, "secretkey", (err, userInfo) => {
     if (err) return res.status(403).json("Token is not valid!");
 
-    const q = QueryService.get("addComment");
+    const q = QueryFactory.get("addComment");
 
     const values = [
       req.body.description,
@@ -44,7 +44,7 @@ export const deleteComment = (req, res) => {
     if (err) return res.status(403).json("Token is not valid!");
 
     const commentId = req.params.id;
-    const q = QueryService.get("deleteComment");
+    const q = QueryFactory.get("deleteComment");
 
     db.query(q, [commentId, userInfo.id], (err, data) => {
       if (err) return res.status(500).json(err);

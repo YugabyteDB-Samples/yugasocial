@@ -1,9 +1,9 @@
 import { db } from "../connect.js";
 import jwt from "jsonwebtoken";
-import QueryService from "../services/QueryService.js";
+import QueryFactory from "../factories/QueryFactory.js";
 const { DB_TYPE } = process.env;
 export const getLikes = (req, res) => {
-  const q = QueryService.get("likesForPost");
+  const q = QueryFactory.get("likesForPost");
 
   db.query(q, [req.query.postid], (err, data) => {
     if (err) return res.status(500).json(err);
@@ -20,7 +20,7 @@ export const addLike = (req, res) => {
   jwt.verify(token, "secretkey", (err, userInfo) => {
     if (err) return res.status(403).json("Token is not valid!");
 
-    const q = QueryService.get("addLikeToPost");
+    const q = QueryFactory.get("addLikeToPost");
     const values = [userInfo.id, req.body.postid];
     const properties = DB_TYPE === "mysql" ? [values] : values;
     db.query(q, properties, (err, data) => {
@@ -37,7 +37,7 @@ export const deleteLike = (req, res) => {
   jwt.verify(token, "secretkey", (err, userInfo) => {
     if (err) return res.status(403).json("Token is not valid!");
 
-    const q = QueryService.get("deleteLikeForPost");
+    const q = QueryFactory.get("deleteLikeForPost");
 
     db.query(q, [userInfo.id, req.query.postid], (err, data) => {
       if (err) return res.status(500).json(err);

@@ -1,11 +1,11 @@
 import { db } from "../connect.js";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import QueryService from "../services/QueryService.js";
+import QueryFactory from "../factories/QueryFactory.js";
 const { DB_TYPE } = process.env;
 export const register = (req, res) => {
   //CHECK USER IF EXISTS
-  const q = QueryService.get("selectUserByUsername");
+  const q = QueryFactory.get("selectUserByUsername");
 
   db.query(q, [req.body.username], (err, data) => {
     if (err) return res.status(500).json(err);
@@ -15,7 +15,7 @@ export const register = (req, res) => {
     const salt = bcrypt.genSaltSync(10);
     const hashedPassword = bcrypt.hashSync(req.body.password, salt);
 
-    const q = QueryService.get("insertUser");
+    const q = QueryFactory.get("insertUser");
 
     const values = [
       req.body.username,
@@ -34,7 +34,7 @@ export const register = (req, res) => {
 };
 
 export const login = (req, res) => {
-  const q = QueryService.get("selectUserByUsername");
+  const q = QueryFactory.get("selectUserByUsername");
 
   db.query(q, [req.body.username], (err, data) => {
     if (err) return res.status(500).json(err);

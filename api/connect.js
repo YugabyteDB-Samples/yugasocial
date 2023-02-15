@@ -2,11 +2,11 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const { Pool } = require("@yugabytedb/pg");
 import mysql from "mysql";
-import QueryService from "./services/QueryService.js";
+import QueryFactory from "./factories/QueryFactory.js";
 
 function setDatabaseConnection() {
   console.log("setting database connection");
-  QueryService.setDatabaseType(process.env.DB_TYPE);
+  QueryFactory.setDatabaseType(process.env.DB_TYPE);
   if (process.env.DB_TYPE === "mysql") {
     return mysql.createPool({
       host: process.env.DB_HOST,
