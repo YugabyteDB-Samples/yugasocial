@@ -2,7 +2,11 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const { Pool } = require("@yugabytedb/pg");
 import mysql from "mysql";
+import QueryService from "./services/QueryService.js";
+
 function setDatabaseConnection() {
+  console.log("setting database connection");
+  QueryService.setDatabaseType(process.env.DB_TYPE);
   if (process.env.DB_TYPE === "mysql") {
     return mysql.createPool({
       host: process.env.DB_HOST,
@@ -23,19 +27,30 @@ function setDatabaseConnection() {
       max: 100,
     };
 
+    let pool;
     if (process.env.DB_DEPLOYMENT_TYPE === "docker") {
-      return new Pool(config);
+      pool = new Pool(config);
     } else {
       config["ssl"] = { rejectUnauthorized: false };
-      return new Pool(config);
+      pool = new Pool(config);
     }
+    pool.on("connect", (client) => {
+      console.log("connect callback");
+      client.query("SET search_path TO social");
+    });
+
+    return pool;
   }
 }
 const connection = setDatabaseConnection();
-try {
-  connection.query("SELECT 1 = 1;");
-  console.log("connection", connection);
-} catch (e) {
-  console.log(e);
+async function verifyConnection() {
+  try {
+    await connection.query("SELECT 1 = 1;");
+    console.log("connection to DB verified");
+  } catch (e) {
+    console.log(e);
+  }
 }
+
+verifyConnection();
 export let db = connection;

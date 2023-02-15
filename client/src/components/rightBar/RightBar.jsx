@@ -44,7 +44,7 @@ const RightBar = () => {
   );
 
   const handleFollow = (userid) => {
-    mutation.mutate({following: relationshipData.includes(userid), userid});
+    mutation.mutate({following: relationshipData?.includes(userid), userid});
   };
 
   const filterUsersOnClient = (e, userId) => {
@@ -74,7 +74,7 @@ const RightBar = () => {
                 </Link>
                 <div className="buttons">
                     <button onClick={(e) => { e.preventDefault(); handleFollow(user.id);}} className="follow">
-                      {relationshipData.includes(user.id)
+                      {relationshipData?.includes(user.id)
                         ? "Following"
                         : "Follow"}
                     </button>

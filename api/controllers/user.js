@@ -1,12 +1,15 @@
 import { db } from "../connect.js";
 import jwt from "jsonwebtoken";
+import QueryService from "../services/QueryService.js";
+const { DB_TYPE } = process.env;
 
 export const getUsers = (req, res) => {
   const userid = req.query.userid;
-  const q = "SELECT * FROM users WHERE id != ? LIMIT 5";
+  const q = QueryService.get("getUsers");
 
   db.query(q, [userid], (err, data) => {
     if (err) return res.status(500).json(err);
+    if (DB_TYPE === "yugabyte") data = data.rows;
     const info = data.map((d) => {
       const { password, ...info } = d;
       return info;
@@ -14,37 +17,15 @@ export const getUsers = (req, res) => {
     return res.json(info);
   });
 };
-export const getUsersYugabyte = (req, res) => {
-  const userid = req.query.userid;
-  const q = "SELECT * FROM users WHERE id != $1 LIMIT 5";
 
-  db.query(q, [userid], (err, data) => {
-    if (err) return res.status(500).json(err);
-    const info = data?.rows?.map((d) => {
-      const { password, ...info } = d;
-      return info;
-    });
-    return res.json(info);
-  });
-};
 export const getUser = (req, res) => {
   const userid = req.params.userid;
-  const q = "SELECT * FROM users WHERE id=?";
+  const q = QueryService.get("getUserById");
 
   db.query(q, [userid], (err, data) => {
     if (err) return res.status(500).json(err);
+    if (DB_TYPE === "yugabyte") data = data.rows;
     const { password, ...info } = data[0];
-    return res.json(info);
-  });
-};
-export const getUserYugabyte = (req, res) => {
-  const userid = req.params.userid;
-  const q = "SELECT * FROM users WHERE id = $1";
-
-  db.query(q, [userid], (err, data) => {
-    if (err) return res.status(500).json(err);
-    const d = data?.rows[0];
-    const { password, ...info } = d;
     return res.json(info);
   });
 };
@@ -56,8 +37,7 @@ export const updateUser = (req, res) => {
   jwt.verify(token, "secretkey", (err, userInfo) => {
     if (err) return res.status(403).json("Token is not valid!");
 
-    const q =
-      "UPDATE users SET `name`=?,`city`=?,`website`=?,`profilepic`=?,`coverpic`=? WHERE id=? ";
+    const q = QueryService.get("updateUser");
 
     db.query(
       q,
@@ -71,35 +51,10 @@ export const updateUser = (req, res) => {
       ],
       (err, data) => {
         if (err) res.status(500).json(err);
-        if (data.affectedRows > 0) return res.json("Updated!");
-        return res.status(403).json("You can update only your account!");
-      }
-    );
-  });
-};
-export const updateUserYugabyte = (req, res) => {
-  const token = req.cookies.accessToken;
-  if (!token) return res.status(401).json("Not authenticated!");
-
-  jwt.verify(token, "secretkey", (err, userInfo) => {
-    if (err) return res.status(403).json("Token is not valid!");
-
-    const q =
-      "UPDATE users SET name = $1,city = $2, website = $3, profilepic = $4, coverpic = $5 WHERE id = $6";
-
-    db.query(
-      q,
-      [
-        req.body.name,
-        req.body.city,
-        req.body.website,
-        req.body.profilepic,
-        req.body.coverpic,
-        userInfo.id,
-      ],
-      (err, data) => {
-        if (err) res.status(500).json(err);
-        if (data.rowCount > 0) return res.json("Updated!");
+        if (DB_TYPE === "mysql" && data.affectedRows > 0)
+          return res.json("Updated!");
+        if (DB_TYPE === "yugabyte" && data.rowCount > 0)
+          return res.json("Updated!");
         return res.status(403).json("You can update only your account!");
       }
     );

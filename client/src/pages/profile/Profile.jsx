@@ -61,7 +61,7 @@ const Profile = () => {
   );
 
   const handleFollow = () => {
-    mutation.mutate(relationshipData.includes(currentUser.id));
+    mutation.mutate(relationshipData?.includes(currentUser.id));
   };
 
   const profilepic = userData?.profilepic?.length > 0 ? `http://localhost:8800/images/${userData.profilepic}` :  "https://static.thenounproject.com/png/3672322-200.png"
@@ -114,7 +114,7 @@ const Profile = () => {
                   <button onClick={() => setOpenUpdate(true)}>Update</button>
                 ) : (
                   <button onClick={handleFollow}>
-                    {relationshipData.includes(currentUser.id)
+                    {relationshipData?.includes(currentUser.id)
                       ? "Following"
                       : "Follow"}
                   </button>

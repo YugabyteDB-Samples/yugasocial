@@ -2,6 +2,7 @@ import { db } from "../connect.js";
 import jwt from "jsonwebtoken";
 import moment from "moment";
 
+// TODO: Move queries to QueryService when feature is implemented
 export const getStories = (req, res) => {
   const token = req.cookies.accessToken;
   if (!token) return res.status(401).json("Not logged in!");
