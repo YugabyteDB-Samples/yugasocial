@@ -35,7 +35,6 @@ function setDatabaseConnection() {
       pool = new Pool(config);
     }
     pool.on("connect", (client) => {
-      console.log("connect callback");
       client.query("SET search_path TO social");
     });
 
