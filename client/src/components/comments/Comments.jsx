@@ -35,8 +35,12 @@ const Comments = ({ postid }) => {
     setDesc("");
   };
 
-  
-  const profilepic = currentUser?.profilepic?.length > 0 ? `http://localhost:8800/images/${currentUser.profilepic}` :  "https://static.thenounproject.com/png/3672322-200.png"
+  const profilepic =
+    currentUser?.profilepic?.length > 0
+      ? `${
+          process.env.NODE_ENV === "production" ? "" : "http://localhost:8800"
+        }/images/${currentUser.profilepic}`
+      : "https://static.thenounproject.com/png/3672322-200.png";
   return (
     <div className="comments">
       <form className="write" onSubmit={handleSubmit}>
@@ -54,19 +58,27 @@ const Comments = ({ postid }) => {
         : isLoading
         ? "loading"
         : data.map((comment) => {
-            const commentuserprofilepic = comment?.profilepic?.length > 0 ? `http://localhost:8800/images/${comment.profilepic}` :  "https://static.thenounproject.com/png/3672322-200.png"
-            return <div className="comment" key={comment.id}>
-              <img src={commentuserprofilepic} alt="" />
-              <div className="info">
-                <span>{comment.name}</span>
-                <p>{comment.description}</p>
+            const commentuserprofilepic =
+              comment?.profilepic?.length > 0
+                ? `${
+                    process.env.NODE_ENV === "production"
+                      ? ""
+                      : "http://localhost:8800"
+                  }/images/${comment.profilepic}`
+                : "https://static.thenounproject.com/png/3672322-200.png";
+            return (
+              <div className="comment" key={comment.id}>
+                <img src={commentuserprofilepic} alt="" />
+                <div className="info">
+                  <span>{comment.name}</span>
+                  <p>{comment.description}</p>
+                </div>
+                <span className="date">
+                  {moment(comment.createdat).fromNow()}
+                </span>
               </div>
-              <span className="date">
-                {moment(comment.createdat).fromNow()}
-              </span>
-            </div>
-          }
-        )}
+            );
+          })}
     </div>
   );
 };

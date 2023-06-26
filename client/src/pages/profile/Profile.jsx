@@ -25,25 +25,27 @@ const Profile = () => {
   const userid = parseInt(location.pathname.split("/")[2]);
   const queryClient = useQueryClient();
 
-  const { isLoading, error, data: userData } = useQuery(["user", userid], () =>
+  const {
+    isLoading,
+    error,
+    data: userData,
+  } = useQuery(["user", userid], () =>
     makeRequest.get("/users/find/" + userid).then((res) => {
       return res.data;
     })
   );
 
-  const { isLoading: rIsLoading, data: relationshipData } = useQuery(
-    {
-      queryKey: ["relationship", {id: userid}],
-      queryFn: () => {
-        return makeRequest.get("/relationships?followeduserid=" + userData.id).then((res) => {
+  const { isLoading: rIsLoading, data: relationshipData } = useQuery({
+    queryKey: ["relationship", { id: userid }],
+    queryFn: () => {
+      return makeRequest
+        .get("/relationships?followeduserid=" + userData.id)
+        .then((res) => {
           return res.data;
-        })
-      },
-      enabled: userData?.id != null
-    }
-  );
-
-  
+        });
+    },
+    enabled: userData?.id != null,
+  });
 
   const mutation = useMutation(
     (following) => {
@@ -64,8 +66,18 @@ const Profile = () => {
     mutation.mutate(relationshipData?.includes(currentUser.id));
   };
 
-  const profilepic = userData?.profilepic?.length > 0 ? `http://localhost:8800/images/${userData.profilepic}` :  "https://static.thenounproject.com/png/3672322-200.png"
-  const coverpic = userData?.coverpic?.length > 0 ? `http://localhost:8800/images/${userData.coverpic}` :  "https://www.fg-a.com/facebook-images/2021-beach-fun-cover.jpg"
+  const profilepic =
+    userData?.profilepic?.length > 0
+      ? `${
+          process.env.NODE_ENV === "production" ? "" : "http://localhost:8800"
+        }/images/${userData.profilepic}`
+      : "https://static.thenounproject.com/png/3672322-200.png";
+  const coverpic =
+    userData?.coverpic?.length > 0
+      ? `${
+          process.env.NODE_ENV === "production" ? "" : "http://localhost:8800"
+        }/images/${userData.coverpic}`
+      : "https://www.fg-a.com/facebook-images/2021-beach-fun-cover.jpg";
 
   return (
     <div className="profile">

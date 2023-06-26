@@ -46,7 +46,12 @@ const Share = () => {
     setFile(null);
   };
 
-  const profilepic = currentUser?.profilepic?.length > 0 ? `http://localhost:8800/images/${currentUser.profilepic}` :  "https://static.thenounproject.com/png/3672322-200.png"
+  const profilepic =
+    currentUser?.profilepic?.length > 0
+      ? `${
+          process.env.NODE_ENV === "production" ? "" : "http://localhost:8800"
+        }/images/${currentUser.profilepic}`
+      : "https://static.thenounproject.com/png/3672322-200.png";
 
   return (
     <div className="share">

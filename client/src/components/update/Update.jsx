@@ -16,7 +16,7 @@ const Update = ({ setOpenUpdate, user }) => {
     website: user.website,
   });
 
-  const {currentUser, setCurrentUser} = useContext(AuthContext);
+  const { currentUser, setCurrentUser } = useContext(AuthContext);
   const upload = async (file) => {
     try {
       const formData = new FormData();
@@ -62,11 +62,20 @@ const Update = ({ setOpenUpdate, user }) => {
     setOpenUpdate(false);
     setCover(null);
     setProfile(null);
-  }
+  };
 
-  const profilepic = user?.profilepic?.length > 0 ? `http://localhost:8800/images/${user.profilepic}` :  "https://static.thenounproject.com/png/3672322-200.png"
-  const coverpic = user?.coverpic?.length > 0 ? `http://localhost:8800/images/${user.coverpic}` :  "https://www.fg-a.com/facebook-images/2021-beach-fun-cover.jpg"
-
+  const profilepic =
+    user?.profilepic?.length > 0
+      ? `${
+          process.env.NODE_ENV === "production" ? "" : "http://localhost:8800"
+        }/images/${user.profilepic}`
+      : "https://static.thenounproject.com/png/3672322-200.png";
+  const coverpic =
+    user?.coverpic?.length > 0
+      ? `${
+          process.env.NODE_ENV === "production" ? "" : "http://localhost:8800"
+        }/images/${user.coverpic}`
+      : "https://www.fg-a.com/facebook-images/2021-beach-fun-cover.jpg";
 
   return (
     <div className="update">
@@ -78,11 +87,7 @@ const Update = ({ setOpenUpdate, user }) => {
               <span>Cover Picture</span>
               <div className="imgContainer">
                 <img
-                  src={
-                    cover
-                      ? URL.createObjectURL(cover)
-                      : coverpic
-                  }
+                  src={cover ? URL.createObjectURL(cover) : coverpic}
                   alt=""
                 />
                 <CloudUploadIcon className="icon" />
@@ -92,17 +97,15 @@ const Update = ({ setOpenUpdate, user }) => {
               type="file"
               id="cover"
               style={{ display: "none" }}
-              onChange={(e) => { setCover(e.target.files[0]) }}
+              onChange={(e) => {
+                setCover(e.target.files[0]);
+              }}
             />
             <label htmlFor="profile">
               <span>Profile Picture</span>
               <div className="imgContainer">
                 <img
-                  src={
-                    profile
-                      ? URL.createObjectURL(profile)
-                      : profilepic
-                  }
+                  src={profile ? URL.createObjectURL(profile) : profilepic}
                   alt=""
                 />
                 <CloudUploadIcon className="icon" />
@@ -112,7 +115,9 @@ const Update = ({ setOpenUpdate, user }) => {
               type="file"
               id="profile"
               style={{ display: "none" }}
-              onChange={(e) => { setProfile(e.target.files[0]) }}
+              onChange={(e) => {
+                setProfile(e.target.files[0]);
+              }}
             />
           </div>
           <label>Email</label>

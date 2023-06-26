@@ -59,8 +59,18 @@ const Post = ({ post }) => {
     deleteMutation.mutate(post.id);
   };
 
-  const profilepic = post?.profilepic?.length > 0 ? `http://localhost:8800/images/${post.profilepic}` :  "https://static.thenounproject.com/png/3672322-200.png"
-  const postpic = post?.img?.length > 0 ? `http://localhost:8800/images/${post.img}` :  "";
+  const profilepic =
+    post?.profilepic?.length > 0
+      ? `${
+          process.env.NODE_ENV === "production" ? "" : "http://localhost:8800"
+        }/images/${post.profilepic}`
+      : "https://static.thenounproject.com/png/3672322-200.png";
+  const postpic =
+    post?.img?.length > 0
+      ? `${
+          process.env.NODE_ENV === "production" ? "" : "http://localhost:8800"
+        }/images/${post.img}`
+      : "";
   return (
     <div className="post">
       <div className="container">
