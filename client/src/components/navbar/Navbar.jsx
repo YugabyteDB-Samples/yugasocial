@@ -20,13 +20,18 @@ const Navbar = () => {
     try {
       await makeRequest.post("/auth/logout");
       setCurrentUser(null);
-      console.log("user has been logged out")
+      console.log("user has been logged out");
       navigate("/login");
-    } catch(e) {
+    } catch (e) {
       console.log(e);
     }
-  }
-  const profilepic = currentUser?.profilepic?.length > 0 ? `http://localhost:8800/images/${currentUser.profilepic}` :  "https://static.thenounproject.com/png/3672322-200.png"
+  };
+  const profilepic =
+    currentUser?.profilepic?.length > 0
+      ? `${
+          process.env.NODE_ENV === "production" ? "" : "http://localhost:8800"
+        }/images/${currentUser.profilepic}`
+      : "https://static.thenounproject.com/png/3672322-200.png";
   return (
     <div className="navbar">
       <div className="left">
@@ -51,12 +56,12 @@ const Navbar = () => {
         <PersonOutlinedIcon />
         <EmailOutlinedIcon />
         <NotificationsOutlinedIcon />
-        <Link to={`/profile/${currentUser.id}`} style={{ textDecoration: "none" }}>
+        <Link
+          to={`/profile/${currentUser.id}`}
+          style={{ textDecoration: "none" }}
+        >
           <div className="user">
-            <img
-              src={profilepic}
-              alt=""
-            />
+            <img src={profilepic} alt="" />
             <span>{currentUser.name}</span>
           </div>
         </Link>

@@ -12,7 +12,6 @@ Follow this instruction if you wish to run the entire application with all the c
     - [Running on YugabyteDB Managed or Custom YugabyteDB Deployment](#running-on-yugabytedb-managed-or-custom-yugabytedb-deployment)
     - [Running on MySQL within Docker](#running-on-mysql-within-docker)
     - [Running on Custom MySQL Deployment](#running-on-custom-mysql-deployment)
-    
   - [Seed Database](#seed-database)
   - [Viewing The UI](#viewing-the-ui)
 
@@ -64,6 +63,7 @@ docker compose -f docker-compose-yugabyte-local.yaml up
 ```
 docker compose -f docker-compose-yugabyte.yaml up
 ```
+
 #### **Running on MySQL within Docker**
 
 This is a self-contained deployment, which doesn't require any additional configuration.
@@ -73,7 +73,6 @@ Start the application:
 ```
 docker compose -f docker-compose-mysql-local.yaml up
 ```
-
 
 #### **Running on Custom MySQL Deployment**
 
@@ -119,7 +118,7 @@ For custom database deployments:
 
 The application UI can be found at [localhost:3000](http://localhost:3000).
 
-1. Log in with the default username and password: `tomthomas` / `abc123`. Alternatively, you can register your own user.<img width="1190" alt="Screen Shot 2023-02-13 at 11 15 09 PM" src="https://user-images.githubusercontent.com/2041330/218724314-719af852-0cac-4efd-b4de-e4cf2504fe10.png">
+1. Log in with the default username and password: `TomThomas` / `abc123`. Alternatively, you can register your own user.<img width="1190" alt="Screen Shot 2023-02-13 at 11 15 09 PM" src="https://user-images.githubusercontent.com/2041330/218724314-719af852-0cac-4efd-b4de-e4cf2504fe10.png">
 
 2. After logging in, begin interacting with others on YugaSocial!
-<img width="1483" alt="Screen Shot 2023-02-14 at 11 06 56 AM" src="https://user-images.githubusercontent.com/2041330/218833582-b7f90eb6-8315-4c3b-91ac-ed2ffc2564fc.png">
+   <img width="1483" alt="Screen Shot 2023-02-14 at 11 06 56 AM" src="https://user-images.githubusercontent.com/2041330/218833582-b7f90eb6-8315-4c3b-91ac-ed2ffc2564fc.png">

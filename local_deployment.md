@@ -93,9 +93,9 @@ Start the application
 
 ## Viewing the UI
 
-The application UI can be found at [localhost:3000](http://localhost:3000).
+The application UI can be found at [localhost:8800](http://localhost:8800).
 
-1. Log in with the default username and password: `tomthomas` / `abc123`. Alternatively, you can register your own user.<img width="1190" alt="Screen Shot 2023-02-13 at 11 15 09 PM" src="https://user-images.githubusercontent.com/2041330/218724314-719af852-0cac-4efd-b4de-e4cf2504fe10.png">
+1. Log in with the default username and password: `TomThomas` / `abc123`. Alternatively, you can register your own user.<img width="1190" alt="Screen Shot 2023-02-13 at 11 15 09 PM" src="https://user-images.githubusercontent.com/2041330/218724314-719af852-0cac-4efd-b4de-e4cf2504fe10.png">
 
 2. After logging in, begin interacting with others on YugaSocial!
-<img width="1483" alt="Screen Shot 2023-02-14 at 11 06 56 AM" src="https://user-images.githubusercontent.com/2041330/218833582-b7f90eb6-8315-4c3b-91ac-ed2ffc2564fc.png">
+   <img width="1483" alt="Screen Shot 2023-02-14 at 11 06 56 AM" src="https://user-images.githubusercontent.com/2041330/218833582-b7f90eb6-8315-4c3b-91ac-ed2ffc2564fc.png">
